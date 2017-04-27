@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  font-family: Quicksand;
+  font-family: arial;
+  font-weight: lighter;
   text-decoration: none;
 }
 
@@ -107,7 +108,7 @@ div#who-we-are {
 div#missive {
   width: 55%;
   margin: 6% 25% 8% 20%;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 #missive h1 {
@@ -126,4 +127,61 @@ div#image-wrapper {
 div#image-wrapper img {
   width: 100%;
   opacity: 0.8;
+}
+
+div#read-more {
+  text-align: center;
+  padding: 2% 20%;
+}
+
+#read-more h1 {
+  color: #8FD4CC;
+  font-size: 2.5em;
+}
+
+#read-more p {
+  font-size: 1em;
+}
+
+button.type-2 {
+  padding: 15px 20px;
+  width: 250px;
+  background-color: #8FD4CC;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: white;
+  border: none;
+}
+
+#button-3 {
+  margin: 3%;
+}
+
+div#join-us {
+  width: 100%;
+  margin-top: 3%;
+}
+
+#join-us img {
+  width: 45%;
+  margin-left: 3%;
+}
+
+div#join-call {
+  float: right;
+  width: 45%;
+  margin: 2% 5% 0 0;
+}
+
+#join-call h1 {
+  color: gold;
+  font-size: 2.5em;
+}
+
+#join-call p {
+  font-size: 1em;
+}
+
+#button-4 {
+  margin: 3% 0;
 }
