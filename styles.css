@@ -79,7 +79,7 @@ button.type-1 {
 button.type-1:hover,
 button.type-1:active {
   background-color: white;
-  color: gold;
+  color: #E4A710;
 }
 
 button:focus {
@@ -159,22 +159,21 @@ button.type-2 {
 
 div#join-us {
   width: 100%;
-  margin-top: 3%;
+  margin: 3%;
 }
 
 #join-us img {
   width: 45%;
-  margin-left: 3%;
 }
 
 div#join-call {
   float: right;
   width: 45%;
-  margin: 2% 5% 0 0;
+  margin: 2% 8% 0 0;
 }
 
 #join-call h1 {
-  color: gold;
+  color: #E4A710;
   font-size: 2.5em;
 }
 
@@ -184,4 +183,55 @@ div#join-call {
 
 #button-4 {
   margin: 3% 0;
+}
+
+div#testimonials {
+  width: 100%;
+  margin-top: 8%;
+}
+
+#testimonials img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.65;
+  margin-bottom: 8%;
+  border-bottom: 5px solid #E4A710;
+}
+
+#testimonials h1 {
+  font-size: 2.3em;
+  color: grey;
+  padding: 4% 0 0 6%;
+}
+
+#testimonials table {
+  width: 80%;
+  color: white;
+  margin: 0 0 0 8%;
+  font-size: 1.2em;
+}
+
+td {
+  padding: 5% 2% 5% 5%;
+}
+
+table img {
+  height: 10%;
+  width: 10%;
+}
+
+button.type-3 {
+  padding: 15px 20px;
+  width: 225px;
+  color: #8FD4CC;
+  font-size: 0.9em;
+  background-color: white;
+  border: none;
+}
+
+#testimonials span {
+  display: block;
+  width: 100%;
+  text-align: center;
 }
