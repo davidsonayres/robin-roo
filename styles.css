@@ -230,19 +230,41 @@ div#join-call {
 div#testimonials {
   width: 100%;
   margin-top: 8%;
+  position: relative;
+  margin-bottom: 80px;
+  overflow: visible;
 }
 
-#testimonials img {
+div#testimonials #image {
+  position: absolute;
+  overflow: visible;
+  background-image: url('images/bubble-run.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+div#blue-wash {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #8FD4CC, #8FD4CC, white);
+  opacity: 0.4;
+}
+
+img#border-2 {
+  opacity: 0.95;
+  margin-top: -0.75%;
   width: 100%;
   position: absolute;
-  z-index: -1;
-  opacity: 0.65;
-  margin-bottom: 8%;
-  border-bottom: 5px solid #E4A710;
+  left: -5%;
+  width: 110%;
 }
 
 #testimonials h1 {
-  font-size: 2.3em;
+  font-size: 2.15em;
+  letter-spacing: 6px;
   color: grey;
   padding: 4% 0 0 6%;
 }
@@ -251,16 +273,34 @@ div#testimonials {
   width: 80%;
   color: white;
   margin: 0 0 0 8%;
-  font-size: 1.2em;
+  font-size: 1em;
+  letter-spacing: 2.5px;
 }
 
 td {
-  padding: 5% 2% 5% 5%;
+  padding: 7.5% 2% 6.5%;
 }
 
-table img {
-  height: 10%;
-  width: 10%;
+td#table-images {
+  text-align: center;
+  width: 20%;
+  margin-top: 5%;
+  padding: 2% 2% 0;
+  position: relative;
+}
+
+img#ears {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  right: 25%;
+  bottom: 27%;
+}
+
+img#stars {
+  width: 80%;
+  margin-bottom: -40%;
+  padding: 0;
 }
 
 button.type-3 {
@@ -276,4 +316,5 @@ button.type-3 {
   display: block;
   width: 100%;
   text-align: center;
+  height: 80px;
 }
