@@ -11,17 +11,24 @@ body {
   margin: 0;
 }
 
+img#logo {
+  width: 98px;
+  margin: 20px 5px 10px 32px;
+}
+
 nav {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: flex-end;
+  display: inline-block;
   padding-right: 2%;
+  float: right;
+  margin-top: 1%;
+  height: 100px;
+  overflow: hidden;
 }
 
 nav h2 {
-  margin: 40px 30px 25px;
+  margin: 40px 25px;
   font-size: 1em;
+  display: inline-flex;
 }
 
 a,
@@ -37,13 +44,20 @@ a:hover {
 
 #landing {
   text-align: center;
+  width: 100%;
 }
 
 #landing img {
   width: 100%;
   z-index: -1;
   opacity: 0.65;
-  border-bottom: 5px solid black;
+}
+
+img#border {
+  opacity: 0.95;
+  float: left;
+  margin-top: -1%;
+
 }
 
 #name,
@@ -55,13 +69,24 @@ a:hover {
 
 #name {
   font-size: 14vh;
-  font-family: Lora;
-  top: 22%;
+  font-family: 'Old Standard TT', serif;
+  top: 28%;
+  letter-spacing: 18px;
+}
+
+img#lashes {
+  width: 118px;
+  border: 0;
+  opacity: 1;
+  position: absolute;
+  top: 20%;
+  right: 28.5%;
 }
 
 #tag {
-  font-size: 4vh;
-  top: 46%;
+  font-size: 3.35vh;
+  top: 52%;
+  letter-spacing: 5px;
 }
 
 button.type-1 {
@@ -88,7 +113,7 @@ button:focus {
 
 #button-1,
 #button-2 {
-  bottom: 28%;
+  bottom: 22%;
 }
 
 #button-1 {
