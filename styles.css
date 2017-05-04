@@ -57,7 +57,6 @@ img#border {
   opacity: 0.95;
   float: left;
   margin-top: -1%;
-
 }
 
 #name,
@@ -132,14 +131,20 @@ div#who-we-are {
 
 div#missive {
   width: 55%;
-  margin: 6% 25% 8% 20%;
+  margin: 5% 25% 7% 20%;
   font-size: 1em;
 }
 
 #missive h1 {
   color: #8FD4CC;
-  font-size: 2.8em;
+  font-size: 2.75em;
   margin-bottom: 0;
+  letter-spacing: 13px;
+}
+
+#missive p {
+  font-size: 1.05em;
+  letter-spacing: 2.5px;
 }
 
 div#image-wrapper {
@@ -161,18 +166,20 @@ div#read-more {
 
 #read-more h1 {
   color: #8FD4CC;
-  font-size: 2.5em;
+  font-size: 2.15em;
+  letter-spacing: 6px;
 }
 
 #read-more p {
-  font-size: 1em;
+  font-size: 1.05em;
+  letter-spacing: 2.5px;
 }
 
 button.type-2 {
   padding: 15px 20px;
   width: 250px;
   background-color: #8FD4CC;
-  border-radius: 5px;
+  border-radius: 3px;
   font-size: 0.9em;
   color: white;
   border: none;
@@ -185,25 +192,35 @@ button.type-2 {
 div#join-us {
   width: 100%;
   margin: 3%;
+  position: relative;
 }
 
 #join-us img {
   width: 45%;
 }
 
+img#circles {
+  position: absolute;
+  width: 100px;
+  bottom: -7.25%;
+  right: 51.2%;
+}
+
 div#join-call {
   float: right;
-  width: 45%;
-  margin: 2% 8% 0 0;
+  width: 47%;
+  margin-right: 6%;
 }
 
 #join-call h1 {
   color: #E4A710;
-  font-size: 2.5em;
+  font-size: 2.15em;
+  letter-spacing: 6px;
 }
 
 #join-call p {
-  font-size: 1em;
+  font-size: 1.05em;
+  letter-spacing: 2.5px;
 }
 
 #button-4 {
