@@ -11,6 +11,8 @@ body {
   margin: 0;
 }
 
+/* MAIN PAGE & LAYOUT */
+
 img#logo {
   width: 98px;
   margin: 20px 5px 10px 32px;
@@ -335,4 +337,78 @@ button.type-3 {
   width: 100%;
   text-align: center;
   height: 80px;
+}
+
+/* CONTACT PAGE */
+
+#contact-title {
+  text-align: center;
+  letter-spacing: 6px;
+  margin-top: 5%;
+}
+
+div#contact-wrapper {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 3px;
+  font-size: 0.9em;
+  margin-top: 4%;
+}
+
+div#blue-line {
+  position: relative;
+  height: 180px;
+  border: 1px solid #8FD4CC;
+  margin-top: 10px;
+}
+
+#contact-wrapper-left {
+  position: relative;
+  padding: 30px;
+}
+
+#contact-wrapper-right {
+  position: relative;
+  padding: 30px;
+  padding-left: 30px;
+}
+
+#contact-circle {
+  position: absolute;
+  z-index: -1;
+  width: 130px;
+  margin-left: 16%;
+}
+
+#contact-swirl {
+  position: absolute;
+  z-index: -1;
+  width: 100px;
+  margin-left: 11%;
+}
+
+#contact-wrapper-left h2{
+  text-align: right;
+}
+
+#social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 4.5%;
+  margin-bottom: -3.5%;
+}
+
+#social-media-icon {
+  width: 22px;
+  margin: 10px;
+}
+
+#social-media h3 {
+  font-size: 1em;
+  letter-spacing: 3px;
+  padding-top: 58px;
+  margin-right: 15px;
 }
