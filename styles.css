@@ -51,7 +51,9 @@ a#faq-button:active {
 }
 
 a#promise-button:hover,
-a#contact-button:hover {
+a#promise-button:active,
+a#contact-button:hover,
+a#contact-button:active {
   background-image: url('images/underline-long.svg');
   background-position: bottom;
   background-repeat: no-repeat;
