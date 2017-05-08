@@ -22,10 +22,10 @@
         <h1>BECOME A PART</br>OF OUR FAMILY</h1>
 
         <form name="contactform" method="post" action="apply.php" enctype="multipart/form-data">
-            <input  class="form_input" type="text" name="name" maxlength="50" placeholder="NAME">
-            <input  class="form_input" type="email" name="email" maxlength="80" placeholder="EMAIL">
+            <input  class="form_input" type="text" name="name" maxlength="50" placeholder="NAME" required>
+            <input  class="form_input" type="email" name="email" maxlength="80" placeholder="EMAIL" required>
             <textarea  class="form_input" name="bio" maxlength="3000" cols="25" rows="7" placeholder="TELL US ABOUT YOURSELF"></textarea>
-            <input class="form_input" type="file" name="resume" accept="application/pdf">
+            <input class="form_input" type="file" name="resume" accept="application/pdf" required>
             <input type="submit" value="APPLY">
         </form>
       </div>
