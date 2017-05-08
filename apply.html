@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Open+Sans:300" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">var submitted=false;</script>
+
   </head>
   <body id="apply-page">
     <div id="nav-wrapper">
@@ -21,13 +26,15 @@
       <div id="apply-form">
         <h1>BECOME A PART</br>OF OUR FAMILY</h1>
 
-        <form name="contactform" method="post" action="apply.php" enctype="multipart/form-data">
-            <input  class="form_input" type="text" name="name" maxlength="50" placeholder="NAME" required>
-            <input  class="form_input" type="email" name="email" maxlength="80" placeholder="EMAIL" required>
-            <textarea  class="form_input" name="bio" maxlength="3000" cols="25" rows="7" placeholder="TELL US ABOUT YOURSELF"></textarea>
-            <input class="form_input" type="file" name="resume" accept="application/pdf" required>
+        <form id="contact-form" name="contactform" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSdlRc3fT9aL1PSV-PD4ar0awWBOW1j47Ae9PwIunsNvYlcp0g/formResponse?" enctype="multipart/form-data" target="hidden_iframe" onsubmit="submitted=true">
+            <input class="form_input" type="text" name="entry.1213550810" maxlength="50" placeholder="NAME" required>
+            <input class="form_input" type="email" name="entry.741230607" maxlength="80" placeholder="EMAIL" required>
+            <textarea  class="form_input" name="entry.304063611" maxlength="3000" cols="25" rows="7" placeholder="TELL US ABOUT YOURSELF"></textarea>
+            <!-- <input class="form_input" type="file" name="resume" accept="application/pdf" required> -->
             <input type="submit" value="APPLY">
         </form>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
       </div>
 
       <img src="images/toys.jpg">
@@ -40,7 +47,16 @@
       <img id="social-media-icon" src="images/twitter.svg">
       <img id="social-media-icon" src="images/instagram.svg">
     </div>
+
     <img class="border" src="images/border-blue.svg">
+
+    <script type="text/javascript">
+      $('#contact-form').on('submit', function(e) {
+        console.log('submitted!')
+        $('#contact-form *').attr('style','visibility:hidden');
+        $('#contact-form').prepend('Your application to become a caregiver has been submitted. Thank you!');
+      });
+    </script>
 
   </body>
 </html>
