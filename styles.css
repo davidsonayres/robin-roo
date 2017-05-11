@@ -651,16 +651,16 @@ textarea:focus {
 
 #request-image {
   position: absolute;
-  top: 120px;
-  width: 100%;
+  top: 15vh;
+  width: 100vw;
   z-index: -100;
 }
 
 #request-wrapper {
   position: absolute;
-  width: 53%;
-  right: 7%;
-  top: 30%;
+  width: 53vw;
+  right: 7vw;
+  top: 30vh;
 }
 
 #request-form {
@@ -668,17 +668,17 @@ textarea:focus {
 }
 
 #request-form h1 {
-  font-size: 1.3em;
-  letter-spacing: 3px;
+  font-size: 1.7vw;
+  letter-spacing: 0.3vw;
   color: #8FD4CC;
-  margin-bottom: 8%;
+  margin-bottom: 5vh;
 }
 
 #request-form input,
 #request-form textarea {
   width: 67%;
-  font-size: 1em;
-  margin-bottom: 1%;
+  font-size: 1.3vw;
+  margin-bottom: 1vh;
   padding: 1.5%;
   padding-left: 2%;
   border: 0;
@@ -697,7 +697,7 @@ textarea:focus {
 
 #request-wrapper #social-media {
   justify-content: flex-start;
-  margin: -12.5% 1%;
+  margin: -11.5vh 1vw;
 }
 
 /* MOBILE RESPONSE */
