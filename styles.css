@@ -582,39 +582,40 @@ div#promise-content {
 /* APPLY PAGE */
 
 #apply-wrapper {
-  width: 100%;
+  width: 100vw;
+  margin-top: 3vh;
   margin-bottom: 0;
   position: relative;
 }
 
 #apply-wrapper img{
-  width: 25%;
+  width: 22vw;
   position: absolute;
-  right: 10%;
-  margin-top: 1%;
+  right: 10vw;
+  margin-top: 4.5vh;
   opacity: 0.65;
 }
 
 #apply-form {
-  width: 53%;
+  width: 53vw;
   float: left;
   clear: both;
-  margin: 1.5% 0 -5% 6%;
+  margin: 1.5vh 0 -5vh 10vw;
   position: relative;
 }
 
 #apply-form h1 {
   text-align: right;
-  font-size: 1.3em;
-  letter-spacing: 3px;
-  margin-bottom: 5%;
+  font-size: 1.7vw;
+  letter-spacing: 0.3vw;
+  margin-bottom: 5vh;
 }
 
 #apply-form input,
 #apply-form textarea {
   width: 100%;
-  font-size: 1em;
-  margin-bottom: 1%;
+  font-size: 1.3vw;
+  margin-bottom: 1vh;
   padding: 1.5%;
   padding-left: 2%;
   border: 0;
@@ -636,16 +637,14 @@ textarea:focus {
 #apply-page #social-media {
   justify-content: flex-start;
   align-items: flex-start;
-  margin: auto auto 5% 7.5%;
-  padding-top: 3.75%;
+  margin: auto auto 5vh 10.5vw;
+  padding-top: 3vh;
 }
 
 #apply-page #social-media h3 {
   padding-top: 0;
-}
-
-#apply-page .border {
-  margin-top: -1%;
+  margin-top: 1.2vh;
+  margin-bottom: 4vh;
 }
 
 /* REQUEST PAGE */
