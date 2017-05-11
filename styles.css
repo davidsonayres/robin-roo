@@ -428,6 +428,26 @@ div#blue-line {
   color: white;
 }
 
+#promise-page a#home-button:hover,
+#promise-page a#home-button:active,
+#promise-page a#blog-button:hover,
+#promise-page a#blog-button:active,
+#promise-page a#faq-button:hover,
+#promise-page a#faq-button:active {
+  background-image: url('images/underline-white.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+#promise-page a#promise-button:hover,
+#promise-page a#promise-button:active,
+#promise-page a#contact-button:hover,
+#promise-page a#contact-button:active {
+  background-image: url('images/underline-white.svg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
 #image-2 {
   float: left;
   position: absolute;
