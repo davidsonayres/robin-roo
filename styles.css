@@ -11,8 +11,14 @@ body {
   margin: 0;
 }
 
-button,
-a {
+a,
+a:visited,
+a:active,
+a:hover {
+  color: black;
+}
+
+button {
   cursor: pointer;
 }
 
@@ -23,31 +29,23 @@ button:active {
 /* MAIN PAGE & LAYOUT */
 
 img#logo {
-  width: 98px;
-  margin: 20px 5px 10px 32px;
+  width: 8%;
+  min-width: 80px;
+  margin: 1% 2% 0.5%;
 }
 
 nav {
   display: inline-block;
-  padding-right: 2%;
+  padding: 4% 2% 1%;
   float: right;
   margin-top: 1%;
-  height: 100px;
   overflow: hidden;
 }
 
 nav h2 {
-  margin: 40px 25px;
+  margin: auto 25px;
   font-size: 1em;
   display: inline-flex;
-}
-
-a,
-a:visited,
-a:active,
-a:hover {
-  color: black;
-  padding-bottom: 5px;
 }
 
 a#home-button:hover,
@@ -69,7 +67,6 @@ a#contact-button:active {
   background-position: bottom;
   background-repeat: no-repeat;
 }
-
 
 #landing {
   text-align: center;
@@ -96,25 +93,25 @@ img#border {
 }
 
 #name {
-  font-size: 14vh;
+  font-size: 8vw;
   font-family: 'Old Standard TT', serif;
-  top: 28%;
-  letter-spacing: 18px;
+  top: 28vh;
+  letter-spacing: 1.5vw;
 }
 
 img#lashes {
-  width: 118px;
+  width: 10vw;
   border: 0;
   opacity: 1;
   position: absolute;
-  top: 20%;
-  right: 28.5%;
+  top: 4vh;
+  right: 26.80vw;
 }
 
 #tag {
   font-size: 3.35vh;
-  top: 52%;
-  letter-spacing: 5px;
+  top: 52vh;
+  letter-spacing: 0.5vw;
 }
 
 button.type-1 {
@@ -141,46 +138,44 @@ button:focus {
 
 #button-1,
 #button-2 {
-  bottom: 22%;
+  bottom: 24.5vh;
 }
 
 #button-1 {
   right: 0;
-  margin-right: 51%;
+  margin-right: 51vw;
 }
 
 #button-2 {
   left: 0;
-  margin-left: 51%;
+  margin-left: 51vw;
 }
 
 div#who-we-are {
-  height: 100%;
+  width: 100vw;
 }
 
 div#missive {
-  width: 55%;
-  margin: 5% 25% 7% 20%;
-  font-size: 1em;
+  width: 60;
+  margin: 5vw 15vw 7vw 18vw;
 }
 
 #missive h1 {
   color: #8FD4CC;
-  font-size: 2.75em;
+  font-size: 3.5vw;
   margin-bottom: 0;
-  letter-spacing: 13px;
+  letter-spacing: 1.3vw;
 }
 
 #missive p {
-  font-size: 1.05em;
-  letter-spacing: 2.5px;
+  font-size: 1.28vw;
+  letter-spacing: 0.3vw;
 }
 
 div#image-wrapper {
-  width: 100%;
+  width: 100vw;
   height: 95vh;
   overflow: hidden;
-  position: relative;
 }
 
 div#image-wrapper img {
@@ -190,18 +185,19 @@ div#image-wrapper img {
 
 div#read-more {
   text-align: center;
-  padding: 2% 20%;
+  padding: 2vh 20vw;
+  position: relative;
 }
 
 #read-more h1 {
   color: #8FD4CC;
-  font-size: 2.15em;
-  letter-spacing: 6px;
+  font-size: 2.7vw;
+  letter-spacing: 0.45vw;
 }
 
 #read-more p {
-  font-size: 1.05em;
-  letter-spacing: 2.5px;
+  font-size: 1.28vw;
+  letter-spacing: 0.3vw;
 }
 
 button.type-2 {
@@ -224,37 +220,37 @@ button.type-2:hover {
 }
 
 div#join-us {
-  width: 100%;
-  margin: 3%;
+  width: 100vw;
+  margin: 3vh 3vw;
   position: relative;
 }
 
 #join-us img {
-  width: 45%;
+  width: 45vw;
 }
 
 img#circles {
   position: absolute;
-  width: 100px;
-  bottom: -7.25%;
-  right: 51.2%;
+  width: 8vw;
+  bottom: -5vh;
+  right: 51.2vw;
 }
 
 div#join-call {
   float: right;
-  width: 47%;
-  margin-right: 6%;
+  width: 47vw;
+  margin-right: 6vw;
 }
 
 #join-call h1 {
   color: #E4A710;
-  font-size: 2.15em;
-  letter-spacing: 6px;
+  font-size: 2.7vw;
+  letter-spacing: 0.45vw;
 }
 
 #join-call p {
-  font-size: 1.05em;
-  letter-spacing: 2.5px;
+  font-size: 1.28vw;
+  letter-spacing: 0.3vw;
 }
 
 #button-4 {
@@ -262,10 +258,10 @@ div#join-call {
 }
 
 div#testimonials {
-  width: 100%;
-  margin-top: 8%;
+  width: 100vw;
+  margin-top: 8vh;
   position: relative;
-  margin-bottom: 80px;
+  margin-bottom: 7vh;
   overflow: visible;
 }
 
@@ -277,11 +273,11 @@ div#testimonials #image {
   background-repeat: no-repeat;
   z-index: -1;
   height: 100%;
-  width: 100%;
+  width: 100vw;
 }
 
 div#blue-wash {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background: linear-gradient(90deg, #8FD4CC, #8FD4CC, white);
   opacity: 0.4;
@@ -289,26 +285,26 @@ div#blue-wash {
 
 img#border-2 {
   opacity: 0.95;
-  margin-top: -0.75%;
-  width: 100%;
+  margin-top: -1.5vh;
+  width: 100vw;
   position: absolute;
-  left: -5%;
-  width: 110%;
+  left: -5vw;
+  width: 110vw;
 }
 
 #testimonials h1 {
-  font-size: 2.15em;
-  letter-spacing: 6px;
+  font-size: 2.7vw;
+  letter-spacing: 0.45vw;
   color: grey;
-  padding: 4% 0 0 6%;
+  padding: 4vh 0 0 6vw;
 }
 
 #testimonials table {
-  width: 80%;
+  width: 80vw;
   color: white;
-  margin: 0 0 0 8%;
-  font-size: 1em;
-  letter-spacing: 2.5px;
+  margin: 0 0 0 8vw;
+  font-size: 1.28vw;
+  letter-spacing: 0.3vw;
 }
 
 td {
@@ -325,8 +321,8 @@ td#table-images {
 
 img#ears {
   position: absolute;
-  width: 50%;
-  left: 25%;
+  width: 42%;
+  left: 28%;
   right: 25%;
   bottom: 27%;
 }
@@ -348,9 +344,9 @@ button.type-3 {
 
 #testimonials span {
   display: block;
-  width: 100%;
+  width: 100vw;
   text-align: center;
-  height: 80px;
+  height: 11vh;
 }
 
 /* CONTACT PAGE */
@@ -698,4 +694,19 @@ textarea:focus {
 #request-wrapper #social-media {
   justify-content: flex-start;
   margin: -12.5% 1%;
+}
+
+/* MOBILE RESPONSE */
+
+@media (max-width: 479px) {
+
+  #nav-wrapper {
+    display: none;
+  }
+
+  #landing {
+    border: 2px solid black;
+    height: 100vh;
+  }
+
 }
