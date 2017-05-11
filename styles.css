@@ -515,22 +515,22 @@ div#promise-content {
 /* FAQ PAGE */
 
 #faq-header {
-  margin: 4% 4.5% 0;
-  font-size: 1.6em;
-  letter-spacing: 6px;
+  margin: 4vh 4.5vw 0;
+  font-size: 2vw;
+  letter-spacing: 0.45vw;
 }
 
 #faq-wrapper {
-  width: 93%;
-  margin: 0 3.5% 1%;
+  width: 93vw;
+  margin: 0 3.5vw 1vh;
   color: grey;
-  font-size: 0.9em;
-  letter-spacing: 2px;
+  font-size: 1.1vw;
+  letter-spacing: 0.2vw;
   vertical-align: top;
   display: flex;
   justify-content: flex-start;
   align-content: flex-start;
-  padding: 1%;
+  padding: 1vw;
 }
 
 #faq-left-clm {
@@ -566,17 +566,17 @@ div#promise-content {
 #image-3 {
   background-image: url('images/swing.jpg');
   background-size: cover;
-  width: 250px;
-  height: 140px;
+  width: 19.5vw;
+  height: 21.5vh;
   opacity: 0.65;
-  margin-top: 10%;
+  margin-top: 4vh;
 }
 
 #faq-left-clm img {
   position: absolute;
-  width: 60px;
-  right: 10%;
-  top: 41%;
+  width: 5vw;
+  right: 2.5vw;
+  top: 30vh;
 }
 
 /* APPLY PAGE */
