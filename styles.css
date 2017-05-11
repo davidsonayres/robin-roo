@@ -11,6 +11,15 @@ body {
   margin: 0;
 }
 
+button,
+a {
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
 /* MAIN PAGE & LAYOUT */
 
 img#logo {
@@ -109,21 +118,21 @@ img#lashes {
 }
 
 button.type-1 {
-  border: 2px solid white;
+  border: 1.5px solid white;
+  border-radius: 2px;
   padding: 15px 20px;
   width: 200px;
   position: absolute;
   z-index: 1;
   background-color: transparent;
   font-size: 0.9em;
-  color: white;
+  color: #E4A710;
   opacity: 0.9;
 }
 
-button.type-1:hover,
-button.type-1:active {
+button.type-1:hover {
   background-color: white;
-  color: #E4A710;
+  cursor: pointer;
 }
 
 button:focus {
@@ -202,7 +211,12 @@ button.type-2 {
   border-radius: 3px;
   font-size: 0.9em;
   color: white;
-  border: none;
+  border: 1.5px solid #8FD4CC;
+}
+
+button.type-2:hover {
+  background-color: transparent;
+  color: #8FD4CC;
 }
 
 #button-3 {
@@ -329,7 +343,7 @@ button.type-3 {
   color: #8FD4CC;
   font-size: 0.9em;
   background-color: white;
-  border: none;
+  border: 1.5px solid white;
 }
 
 #testimonials span {
