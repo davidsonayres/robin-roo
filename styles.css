@@ -295,41 +295,58 @@ img#border-2 {
 #testimonials h1 {
   font-size: 2.7vw;
   letter-spacing: 0.45vw;
-  color: grey;
+  color: white;
   padding: 4vh 0 0 6vw;
 }
 
-#testimonials table {
+#testimonial-wrapper {
   width: 80vw;
   color: white;
-  margin: 0 0 0 8vw;
+  margin: 15vh 10vw;
   font-size: 1.28vw;
-  letter-spacing: 0.3vw;
-}
-
-td {
-  padding: 7.5% 2% 6.5%;
-}
-
-td#table-images {
-  text-align: center;
-  width: 20%;
-  margin-top: 5%;
-  padding: 2% 2% 0;
   position: relative;
+  display: flex;
+}
+
+#testimonial-wrapper-left {
+  width: 20%;
+  left: 0;
+  position: relative;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#testimonial-image-wrapper {
+  position: relative;
+  width: 13vw;
+  height: 13vw;
+  overflow: hidden;
+  border-radius: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#testimonial-image-wrapper img {
+  width: 100%;
+}
+
+#testimonial-wrapper-right {
+  width: 77.5%;
+  right: 0;
+  position: relative;
+  margin-left: 2.5%;
+  letter-spacing: 0.25vw;
+  font-size: 1.5vw;
 }
 
 img#ears {
   position: absolute;
-  width: 42%;
-  left: 28%;
-  right: 25%;
-  bottom: 27%;
+  top: 0;
 }
 
 img#stars {
   width: 80%;
-  margin-bottom: -40%;
+  /*margin-bottom: -40%;*/
   padding: 0;
 }
 
