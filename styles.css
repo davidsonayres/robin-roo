@@ -346,7 +346,6 @@ img#ears {
 
 img#stars {
   width: 80%;
-  /*margin-bottom: -40%;*/
   padding: 0;
 }
 
@@ -371,7 +370,9 @@ button.type-3 {
 #contact-title {
   text-align: center;
   letter-spacing: 0.5vw;
-  margin-top: 5vh;
+  margin-top: 12vh;
+  font-size: 2.75vw;
+  padding-left: 1vw;
 }
 
 div#contact-wrapper {
@@ -379,45 +380,52 @@ div#contact-wrapper {
   height: 30vh;
   display: flex;
   justify-content: center;
-  letter-spacing: 0.25vw;
+  letter-spacing: 0.4vw;
   font-size: 1vw;
-  margin: 7vh auto;
+  margin: 5vh auto 7vh;
 }
 
 div#blue-line {
   position: relative;
-  height: 25vh;
+  height: 28vh;
   border: 1px solid #8FD4CC;
   margin-top: 1.8vh;
 }
 
-#contact-wrapper-left {
-  position: relative;
-  padding: 3%;
-}
-
+#contact-wrapper-left,
+#contact-wrapper-center,
 #contact-wrapper-right {
   position: relative;
-  padding: 3%;
+  padding: 3% 2%;
+  text-align: center;
+  font-size: 1.2vw;
+  width: 28%;
 }
 
 #contact-circle {
   position: absolute;
   z-index: -1;
-  width: 10vw;
-  margin-left: 2.7vw;
-  margin-top: -0.8vh;
+  width: 12vw;
+  top: 2.5vh;
+  right: 8.25vw;
 }
 
 #contact-swirl {
   position: absolute;
   z-index: -1;
-  width: 8vw;
-  margin-left: 2.2vw;
+  width: 9vw;
+  right: 9vw;
 }
 
-#contact-wrapper-left h2{
-  text-align: right;
+#contact-train {
+  position: absolute;
+  z-index: -1;
+  width: 12vw;
+  right: 9vw;
+}
+
+#contact-wrapper-right h2 {
+  padding-top: 3vh;
 }
 
 #social-media {
