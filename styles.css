@@ -123,10 +123,10 @@ a#contact-button:active {
   width: 100%;
 }
 
-#temp_message h2 {
-  margin: -2vh auto -3vh;
+#temp-contact {
+  font-size: 3.5vh;
+  margin: -2.5vh;
   color: #EAB55C;
-  font-weight: bold;
 }
 
 
