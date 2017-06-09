@@ -1,3 +1,8 @@
+/* 89C6C5 blue
+EAB55C gold
+E86D55 red
+4D4D4D soft black */
+
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
@@ -9,13 +14,14 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  color: #4D4D4D;
 }
 
 a,
 a:visited,
 a:active,
 a:hover {
-  color: black;
+  color: #89C6C5;
 }
 
 button {
@@ -44,6 +50,13 @@ nav {
   float: right;
   margin-top: 1%;
   overflow: hidden;
+}
+
+nav a,
+nav a:visited,
+nav a:active,
+nav a:hover {
+  color: black;
 }
 
 nav h2 {
@@ -135,6 +148,7 @@ a#contact-button:active {
 #landing {
   text-align: center;
   width: 100%;
+  color: black;
 }
 
 #landing img {
@@ -187,7 +201,7 @@ button.type-1 {
   z-index: 1;
   background-color: transparent;
   font-size: 0.9em;
-  color: #E4A710;
+  color: #EAB55C;
   opacity: 0.9;
 }
 
@@ -225,7 +239,7 @@ div#missive {
 }
 
 #missive h1 {
-  color: #8FD4CC;
+  color: #89C6C5;
   font-size: 3.5vw;
   margin-bottom: 0;
   letter-spacing: 1.3vw;
@@ -254,7 +268,7 @@ div#read-more {
 }
 
 #read-more h1 {
-  color: #8FD4CC;
+  color: #89C6C5;
   font-size: 2.7vw;
   letter-spacing: 0.45vw;
 }
@@ -267,16 +281,16 @@ div#read-more {
 button.type-2 {
   padding: 15px 20px;
   width: 20vw;
-  background-color: #8FD4CC;
+  background-color: #89C6C5;
   border-radius: 3px;
   font-size: 0.9em;
   color: white;
-  border: 1.5px solid #8FD4CC;
+  border: 1.5px solid #89C6C5;
 }
 
 button.type-2:hover {
   background-color: transparent;
-  color: #8FD4CC;
+  color: #89C6C5;
 }
 
 #button-3 {
@@ -307,7 +321,7 @@ div#join-call {
 }
 
 #join-call h1 {
-  color: #E4A710;
+  color: #EAB55C;
   font-size: 2.7vw;
   letter-spacing: 0.45vw;
 }
@@ -343,7 +357,7 @@ div#testimonials #image {
 div#blue-wash {
   width: 100vw;
   height: 100%;
-  background: linear-gradient(90deg, #8FD4CC, #8FD4CC, white);
+  background: linear-gradient(90deg, #89C6C5, #89C6C5, white);
   opacity: 0.4;
 }
 
@@ -418,7 +432,7 @@ img#stars {
 button.type-3 {
   padding: 15px 20px;
   width: 20vw;
-  color: #8FD4CC;
+  color: #89C6C5;
   font-size: 0.9em;
   background-color: white;
   border: 1.5px solid white;
@@ -454,7 +468,7 @@ div#contact-wrapper {
 div#blue-line {
   position: relative;
   height: 28vh;
-  border: 1px solid #8FD4CC;
+  border: 1px solid #89C6C5;
   margin-top: 1.8vh;
 }
 
@@ -466,6 +480,12 @@ div#blue-line {
   text-align: center;
   font-size: 1.2vw;
   width: 28%;
+}
+
+#contact-wrapper-left a,
+#contact-wrapper-center a,
+#contact-wrapper-right a {
+  color: #4D4D4D;
 }
 
 #contact-circle {
@@ -671,7 +691,7 @@ img#promise-first {
 }
 
 #caregiver {
-  color: #8FD4CC;
+  color: #89C6C5;
   cursor: pointer;
 }
 
@@ -796,7 +816,7 @@ textarea:focus {
 #request-form h1 {
   font-size: 1.7vw;
   letter-spacing: 0.3vw;
-  color: #8FD4CC;
+  color: #89C6C5;
   margin-bottom: 5vh;
 }
 
