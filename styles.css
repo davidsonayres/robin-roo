@@ -182,7 +182,7 @@ button.type-1 {
   border: 1.5px solid white;
   border-radius: 2px;
   padding: 15px 20px;
-  width: 200px;
+  width: 20vw;
   position: absolute;
   z-index: 1;
   background-color: transparent;
@@ -266,7 +266,7 @@ div#read-more {
 
 button.type-2 {
   padding: 15px 20px;
-  width: 250px;
+  width: 20vw;
   background-color: #8FD4CC;
   border-radius: 3px;
   font-size: 0.9em;
@@ -353,7 +353,7 @@ img#border-2 {
   width: 100vw;
   position: absolute;
   left: -5vw;
-  width: 110vw;
+  width: 120vw;
 }
 
 #testimonials h1 {
@@ -376,14 +376,15 @@ img#border-2 {
   width: 20%;
   left: 0;
   position: relative;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-align: center;
+  font-style: italic;
 }
 
 #testimonial-image-wrapper {
   position: relative;
-  width: 13vw;
-  height: 13vw;
+  width: 11vw;
+  height: 11vw;
   overflow: hidden;
   border-radius: 100%;
   margin-left: auto;
@@ -401,6 +402,7 @@ img#border-2 {
   margin-left: 2.5%;
   letter-spacing: 0.25vw;
   font-size: 1.5vw;
+  font-size: 1.15em;
 }
 
 img#ears {
@@ -415,7 +417,7 @@ img#stars {
 
 button.type-3 {
   padding: 15px 20px;
-  width: 225px;
+  width: 20vw;
   color: #8FD4CC;
   font-size: 0.9em;
   background-color: white;
