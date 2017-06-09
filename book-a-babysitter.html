@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Open+Sans:300" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">var submitted=false;</script>
+
+  </head>
+  <body id="babysitter-page">
+    <div id="nav-wrapper">
+      <img id="logo" src='images/logo.svg'>
+      <nav>
+        <h2><a id="home-button" href="index.html">HOME</a></h2>
+        <h2><a id="blog-button" href="">BLOG</a></h2>
+        <h2><a id="promise-button" href="promise.html">OUR PROMISE</a></h2>
+        <h2><a id="faq-button" href="faq.html">FAQ</a></h2>
+        <h2><a id="contact-button"href="contact.html">GET IN TOUCH</a></h2>
+      </nav>
+    </div>
+    <div id="babysitter-wrapper">
+      <div id="white-wash"></div>
+    </div>
+    <div id="babysitter-form-wrapper">
+      <h1>BOOK A BABYSITTER</h1>
+
+      <p>Is your usual babysitter unavaialable? Robin & Roo Sitters and Nannies is an excellent source for Toronto's best on-call babysitters. Booking with us is easy!</p>
+
+      <p> HOW IT WORKS:</p>
+
+      <p>STEP ONE: Fill out the request form below.</br>
+      STEP TWO: Receive the babysitter's profile</br>
+      STEP THREE: Pay your <a href="">agency fee</a> to confirm the booking.</p>
+
+      <p>Babysitters are paid in cash at the end of their shift.</p>
+
+      <p>All of our babysitters have undergone the same rigorous interview process as our nannies. You can expect a reliable, friendly, and qualified babysitter when you book through us!</p>
+
+      <form id="babysitter-form" name="babysitter-form" method="post" action="https://script.google.com/macros/s/AKfycbyduV3vbdzlqCYkj281F0Rf_zZz712gB5rl8deIcPhAZaPWtOI/exec" enctype="multipart/form-data" target="hidden_iframe" onsubmit="submitted=true">
+          <input class="form_input" type="text" name="Name" maxlength="50" placeholder="NAME" required>
+          <input class="form_input" type="email" name="Email" maxlength="80" placeholder="EMAIL" required>
+          </br><label for="date">DATE REQUESTED:</label>
+          <input class="form_input" type="date" name="Date Requested" placeholder="DATE REQUESTED" required>
+          </br><label for="date">TIME REQUESTED: </label>
+          <input class="form_input" type="time" name="Time Requested" placeholder="TIME REQUESTED" required>
+          <textarea  class="form_input" name="About Us" maxlength="3000" cols="25" rows="7" placeholder="TELL US ABOUT YOUR FAMILY"></textarea>
+          <!-- <input class="form_input" type="file" name="resume" accept="application/pdf" required> -->
+          <input type="submit" value="SUBMIT">
+      </form>
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+    </div>
+
+
+    <div id="social-media">
+      <h3>CONNECT WITH US</h3>
+      <img id="social-media-icon" src="images/facebook.svg">
+      <img id="social-media-icon" src="images/twitter.svg">
+      <img id="social-media-icon" src="images/instagram.svg">
+    </div>
+
+    <img class="border" src="images/border-blue.svg">
+
+    <script type="text/javascript">
+      $('#contact-form').on('submit', function(e) {
+        $('#contact-form *').attr('style','visibility:hidden');
+        $('#contact-form').prepend('Your request for a babysitter has been submitted and someone will contact you shortly. Thank you!');
+      });
+    </script>
+
+  </body>
+</html>
