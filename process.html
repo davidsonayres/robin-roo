@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Open+Sans:300" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="nav-wrapper">
@@ -61,10 +62,26 @@
     </div>
   </div>
   <div id="to-top">
-    <img src="images/nav-arrow-gold.svg">
+    <a href="#top"><img src="images/nav-arrow-gold.svg"></a>
     <p>return to top</p>
   </div>
 
+  <!-- <script>
+    $(function() {
+      $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+          if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+              if (target.length) {
+                  $('html,body').animate({
+                      scrollTop: target.offset().top
+                  }, 1000);
+                  return false;
+                }
+            }
+        });
+    });
+  </script> -->
 
   </body>
 

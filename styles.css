@@ -667,10 +667,12 @@ img#promise-first {
 
 #parent {
   color: #D49906;
+  cursor: pointer;
 }
 
 #caregiver {
   color: #8FD4CC;
+  cursor: pointer;
 }
 
 #faq-right-clm {
@@ -680,6 +682,11 @@ img#promise-first {
   flex-direction: column;
   float: right;
   padding-top: 0;
+  transition: ease-in;
+}
+
+#faq-right-clm span {
+  padding-left: 3vw;
 }
 
 #image-3 {
@@ -849,7 +856,7 @@ textarea:focus {
   width: 100%;
   height: 64%;
   position: relative;
-  padding: 3vw;
+  padding: 4vw;
 }
 
 #agency-fees-left {
@@ -857,7 +864,7 @@ textarea:focus {
   width: 50%;
   float: left;
   text-align: center;
-  padding: 3vw;
+  padding: 2vh 4vw;
 }
 
 #agency-fees-left p {
