@@ -621,6 +621,10 @@ div#promise-content {
   margin-right: 1vw;
 }
 
+#promise-content-box {
+  transition: all 2s ease;
+}
+
 #promise-content-box table {
   border-collapse: separate;
   border-spacing: 0 1em;
@@ -703,7 +707,7 @@ img#promise-first {
   flex-direction: column;
   float: right;
   padding-top: 0;
-  transition: ease-in;
+  transition: all 2s ease;
 }
 
 #faq-right-clm span {
