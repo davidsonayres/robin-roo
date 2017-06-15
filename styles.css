@@ -622,7 +622,6 @@ div#promise-content {
 }
 
 #promise-content-box {
-  transition: all 2s ease;
 }
 
 #promise-content-box table {
@@ -707,7 +706,6 @@ img#promise-first {
   flex-direction: column;
   float: right;
   padding-top: 0;
-  transition: all 2s ease;
 }
 
 #faq-right-clm span {
