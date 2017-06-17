@@ -70,7 +70,7 @@ a#home-button:active,
 a#blog-button:hover,
 a#blog-button:active {
   background-image: url('images/underline-short.svg');
-  background-position: bottom;
+  background-position: 0 105%;
   background-repeat: no-repeat;
 }
 
@@ -81,7 +81,7 @@ a#contact-button:active,
 a#process-button:hover,
 a#process-button:active {
   background-image: url('images/underline-long.svg');
-  background-position: bottom;
+  background-position: 0 108%;;
   background-repeat: no-repeat;
 }
 
@@ -577,7 +577,13 @@ div#blue-line {
 }
 
 #promise-page a#home-button:hover,
-#promise-page a#home-button:active,
+#promise-page a#home-button:active {
+  background-image: url('images/underline-white.svg');
+  background-position: 20% 110%;
+  background-size: 12vw;
+  background-repeat: no-repeat;
+}
+
 #promise-page a#blog-button:hover,
 #promise-page a#blog-button:active,
 #promise-page a#process-button:hover,
@@ -587,7 +593,7 @@ div#blue-line {
 #promise-page a#contact-button:hover,
 #promise-page a#contact-button:active {
   background-image: url('images/underline-white.svg');
-  background-position: bottom;
+  background-position: 0 110%;
   background-repeat: no-repeat;
 }
 
