@@ -30,7 +30,7 @@
     <div id="who-we-are">
       <div id="missive">
         <h1>WHO WE ARE</br>AND HOW WE HELP</h1>
-        <p>ROBIN & ROO PROVIDES FAMILIES WITH TORONTO’S BEST NANNIES AND ON-CALL BABYSITTERS. WE HAVE A DEDICATED TEAM OF NANNIES TO SUIT YOUR UNIQUE CHILDCARE NEEDS. WHETHER YOU NEED A BABYSITTER, FULL TIME, PART TIME, OR TRAVEL NANNY, ROBIN & ROO SITTERS AND NANNIES IS <span style="color:#EAB55C">COMMITTED TO FINDING THE PERFECT CAREGIVER</span> TO BLEND INTO THE UNIQUE FABRIC OF YOUR FAMILY.</p>
+        <p>ROBIN & ROO PROVIDES FAMILIES WITH TORONTO’S BEST NANNIES AND ON-CALL BABYSITTERS. WE HAVE A DEDICATED TEAM OF NANNIES TO SUIT YOUR UNIQUE CHILDCARE NEEDS. WHETHER YOU NEED A BABYSITTER, FULL TIME, PART TIME, OR TRAVEL NANNY, ROBIN & ROO SITTERS AND NANNIES IS COMMITTED TO FINDING THE PERFECT CAREGIVER TO BLEND INTO THE UNIQUE FABRIC OF YOUR FAMILY.</p>
       </div>
       <div id="image-wrapper">
         <img src='images/water-laughing.jpg'>
@@ -70,9 +70,30 @@
           <p>
             We first hired Brianna as an occasional babysitter almost three years ago for out then two-year old son, Wyatt. He fell absolutely in love and was always so happy to have her come over. She is very engaging and playful, yet also sets firm boundaries and truly respects out family's philosophies. She ensures out children (and our home) are safe and clean. She really tailors her activities and stories to our son (trains, trucks & sharks!). When we found out we were having twins, we knew that we would need support and asked Brianna to be our nanny. Thankfully she accepted the position and we cannot imagine life without her; she really keeps our home together. Since the twins were a month old in the summer of 2016, she has assisted us a few days a week with the hectic morning routine, and takes care of the twins while my husband and I are at work; she prepares the children's lunches and snacks and then we're fortunate to have her make dunner for all of us - what a treat! She is also an absolute laundry wizard! Most importantly, she really knows our children as individuals and respects their spirits. We are very grateful to have Brianna helping us raise our boys.
           </p>
+          <div id="read-more-toggle">
+            <p id="1">READ MORE</p>
+            <p id="2">READ LESS</p>
+          </div>
         </div>
       </div>
       <span><button class="type-3" id="button-5" onclick="window.location='contact.html'">GET IN TOUCH</button></span>
     </div>
+    <script type="text/javascript">
+      $('#read-more-toggle p#1').on('click', function(e) {
+        $('#testimonial-wrapper-right').attr('height','70vh');
+        $('#testimonial-wrapper-right').attr('overflow','scroll');
+        $('#read-more-toggle').attr('bottom', '-5vh');
+        $('#read-more-toggle p#1').attr('display','hidden');
+        $('#read-more-toggle p#2').attr('display','block');
+      });
+
+      $('#read-more-toggle p#2').on('click', function(e) {
+        $('#testimonial-wrapper-right').attr('height','40vh');
+        $('#testimonial-wrapper-right').attr('overflow','hidden');
+        $('#read-more-toggle').attr('bottom', '0');
+        $('#read-more-toggle p#2').attr('display','hidden');
+        $('#read-more-toggle p#1').attr('display','block');
+      });
+    </script>
   </body>
 </html>
