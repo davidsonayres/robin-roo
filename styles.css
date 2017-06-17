@@ -856,6 +856,14 @@ textarea:focus {
   margin-top: 1vh;
   background-image: url('images/reading-laughing.jpg');
   background-size: cover;
+  position: relative;
+}
+
+#kid-laugh-wash {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(90deg, transparent, white);
 }
 
 #process-content {
@@ -863,7 +871,7 @@ textarea:focus {
   right: 0;
   width: 58vw;
   margin: 5vh 3vw 1vw;
-  height: 110%;
+  height: 95%;
   overflow: scroll;
 }
 
@@ -882,6 +890,10 @@ textarea:focus {
 td#bullet {
   position: relative;
   width: 40px;
+}
+
+#process-content p:nth-of-type(2) {
+  padding-left: 10vw;
 }
 
 #agency-fees {
