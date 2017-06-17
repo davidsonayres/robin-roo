@@ -342,7 +342,7 @@ div#testimonials {
   width: 100vw;
   margin-top: 8vh;
   position: relative;
-  margin-bottom: 7vh;
+  /*margin-bottom: 7vh;*/
   overflow: visible;
 }
 
@@ -561,6 +561,13 @@ div#blue-line {
   margin-right: 1.8vw;
 }
 
+#sitemap #border {
+  width: 110%;
+  position: absolute;
+  left: -2vw;
+  top: 0.5vh;
+}
+
 /* PROMISE PAGE */
 
 #promise-page {
@@ -680,6 +687,10 @@ img#promise-first {
   right: 0;
   width: 20vw;
   margin: 2vw;
+}
+
+#promise-page #sitemap {
+  margin-top: 20vh;
 }
 
 /* FAQ PAGE */
@@ -823,6 +834,10 @@ textarea:focus {
   margin-bottom: 4vh;
 }
 
+#apply-page #sitemap {
+  margin-top: 80vh;
+}
+
 /* REQUEST PAGE */
 
 #request-image {
@@ -874,6 +889,11 @@ textarea:focus {
 #request-wrapper #social-media {
   justify-content: flex-start;
   margin: -11.5vh 1vw;
+}
+
+#request-page #sitemap {
+  position: absolute;
+  bottom: -68vh;
 }
 
 /* PROCESS PAGE */
@@ -1024,6 +1044,27 @@ td#bullet {
   background-color: lightgrey;
 }
 
+/* SITEMAP */
+
+#sitemap {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 0 2vw 2vw;
+  background-color: #89C6C5;
+}
+
+#sitemap p,
+#sitemap a {
+  color: white;
+}
+
+#sitemap div {
+  display: flex;
+  flex-direction: column;
+  margin: 2vw;
+}
 
 /* MOBILE RESPONSE */
 
