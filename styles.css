@@ -61,7 +61,7 @@ nav a:hover {
 
 nav h2 {
   margin: auto 25px;
-  font-size: 1em;
+  font-size: 1.5vw;
   display: inline-flex;
 }
 
@@ -149,6 +149,7 @@ a#contact-button:active {
   text-align: center;
   width: 100%;
   color: black;
+  overflow: scroll;
 }
 
 #landing img {
@@ -197,10 +198,11 @@ button.type-1 {
   border-radius: 2px;
   padding: 15px 20px;
   width: 20vw;
+  max-width: 250px;
   position: absolute;
   z-index: 1;
   background-color: transparent;
-  font-size: 0.9em;
+  font-size: 1.2vw;
   color: #EAB55C;
   opacity: 0.9;
 }
@@ -281,9 +283,10 @@ div#read-more {
 button.type-2 {
   padding: 15px 20px;
   width: 20vw;
+  max-width: 250px;
   background-color: #89C6C5;
   border-radius: 3px;
-  font-size: 0.9em;
+  font-size: 1.2vw;
   color: white;
   border: 1.5px solid #89C6C5;
 }
@@ -390,7 +393,7 @@ img#border-2 {
   width: 20%;
   left: 0;
   position: relative;
-  font-size: 1.1em;
+  font-size: 1.5vw;
   text-align: center;
   font-style: italic;
 }
@@ -416,7 +419,7 @@ img#border-2 {
   margin-left: 2.5%;
   letter-spacing: 0.25vw;
   font-size: 1.5vw;
-  font-size: 1.15em;
+  font-size: 1.6vw;
 }
 
 img#ears {
@@ -432,8 +435,9 @@ img#stars {
 button.type-3 {
   padding: 15px 20px;
   width: 20vw;
+  max-width: 250px;
   color: #89C6C5;
-  font-size: 0.9em;
+  font-size: 1.2vw;
   background-color: white;
   border: 1.5px solid white;
 }
@@ -864,6 +868,8 @@ textarea:focus {
   right: 0;
   width: 58vw;
   margin: 5vh 3vw;
+  height: 100%;
+  overflow: scroll;
 }
 
 #process-content table {
@@ -891,7 +897,7 @@ textarea:focus {
 }
 
 #agency-fees-left p {
-  font-size: 1.15em;
+  font-size: 1.35vw;
 }
 
 #agency-fees-right {
@@ -907,7 +913,7 @@ textarea:focus {
   width: 100%;
   height: 20vh;
   text-align: center;
-  font-size: 0.9em;
+  font-size: 1.1vw;
   margin-top: 5vh;
 }
 
