@@ -8,7 +8,7 @@
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    
+
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Open+Sans:300" rel="stylesheet">
@@ -85,21 +85,21 @@
     </div>
     <script type="text/javascript">
       $('.more').on('click', function(e) {
-        $('#testimonial-wrapper-right').attr('height','70vh');
-        $('#testimonial-wrapper-right').attr('overflow','scroll');
-        $('#read-more-toggle').attr('bottom', '-5vh');
-        $('#read-more-toggle p#1').attr('display','hidden');
-        $('#read-more-toggle p#2').attr('display','block');
+        $('#testimonial-wrapper-right').css('height','70vh');
+        $('#testimonial-wrapper-right').css('overflow','scroll');
+        $('#read-more-toggle').css('bottom', '-5vh');
+        $('#read-more-toggle p#1').css('display','hidden');
+        $('#read-more-toggle p#2').css('display','block');
         $('#read-more-toggle').removeClass('more');
         $('#read-more-toggle').addClass('less');
       });
 
       $('.less').on('click', function(e) {
-        $('#testimonial-wrapper-right').attr('height','40vh');
-        $('#testimonial-wrapper-right').attr('overflow','hidden');
-        $('#read-more-toggle').attr('bottom', '0');
-        $('#read-more-toggle p#2').attr('display','hidden');
-        $('#read-more-toggle p#1').attr('display','block');
+        $('#testimonial-wrapper-right').css('height','40vh');
+        $('#testimonial-wrapper-right').css('overflow','hidden');
+        $('#read-more-toggle').css('bottom', '0');
+        $('#read-more-toggle p#2').css('display','hidden');
+        $('#read-more-toggle p#1').css('display','block');
         $('#read-more-toggle').removeClass('less');
         $('#read-more-toggle').addClass('more');
       });
