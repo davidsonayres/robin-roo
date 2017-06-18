@@ -72,13 +72,12 @@
           <img id="stars" src="images/stars.svg">
         </div>
         <div id="testimonial-wrapper-right">
-          <p>
-            We first hired Brianna as an occasional babysitter almost three years ago for out then two-year old son, Wyatt. He fell absolutely in love and was always so happy to have her come over. She is very engaging and playful, yet also sets firm boundaries and truly respects out family's philosophies. She ensures out children (and our home) are safe and clean. She really tailors her activities and stories to our son (trains, trucks & sharks!). When we found out we were having twins, we knew that we would need support and asked Brianna to be our nanny. Thankfully she accepted the position and we cannot imagine life without her; she really keeps our home together. Since the twins were a month old in the summer of 2016, she has assisted us a few days a week with the hectic morning routine, and takes care of the twins while my husband and I are at work; she prepares the children's lunches and snacks and then we're fortunate to have her make dunner for all of us - what a treat! She is also an absolute laundry wizard! Most importantly, she really knows our children as individuals and respects their spirits. We are very grateful to have Brianna helping us raise our boys.
-          </p>
-          <div id="read-more-toggle" class="more">
-            <p id="more-button">READ MORE</p>
-            <p id="less-button">READ LESS</p>
+          <input type="checkbox" class="read-more-state" id="post-1" />
+          <div class="read-more-wrap">
+            We first hired Brianna as an occasional babysitter almost three years ago for out then two-year old son, Wyatt. He fell absolutely in love and was always so happy to have her come over. She is very engaging and playful, yet also sets firm boundaries and truly respects our family's philosophies.<span class="read-more-target">She ensures out children (and our home) are safe and clean. She really tailors her activities and stories to our son (trains, trucks & sharks!). When we found out we were having twins, we knew that we would need support and asked Brianna to be our nanny. Thankfully she accepted the position and we cannot imagine life without her; she really keeps our home together. Since the twins were a month old in the summer of 2016, she has assisted us a few days a week with the hectic morning routine, and takes care of the twins while my husband and I are at work. She prepares the children's lunches and snacks, and we're fortunate to have her make dinner for all of us - what a treat! She is also an absolute laundry wizard! Most importantly, she really knows our children as individuals and respects their spirits. We are very grateful to have Brianna helping us raise our boys.</span>
           </div>
+          <label for="post-1" class="read-more-trigger"></label>
+
         </div>
       </div>
       <span><button class="type-3" id="button-5" onclick="window.location='contact.html'">GET IN TOUCH</button></span>
@@ -101,24 +100,5 @@
       </div>
     </div>
 
-    <script type="text/javascript">
-      $('div.more').on('click', function(e) {
-        $('#testimonial-wrapper-right').css('height','70vh');
-        $('#testimonial-wrapper-right').css('overflow','scroll');
-        $('#read-more-toggle').css('bottom', '-5vh');
-        $('p#more-button').css('display','hidden');
-        $('p#less-button').css('display','block');
-        $('#read-more-toggle').toggleClass('more', 'less');
-      });
-
-      $('div.less').on('click', function(e) {
-        $('#testimonial-wrapper-right').css('height','40vh');
-        $('#testimonial-wrapper-right').css('overflow','hidden');
-        $('#read-more-toggle').css('bottom', '0');
-        $('p#less-button').css('display','hidden');
-        $('p#more-button').css('display','block');
-        $('#read-more-toggle').toggleClass('less', 'more');
-      });
-    </script>
   </body>
 </html>
