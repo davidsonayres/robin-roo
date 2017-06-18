@@ -420,7 +420,7 @@ img#border-2 {
   margin-left: 2.5%;
   letter-spacing: 0.25vw;
   font-size: 1.45vw;
-  height: 40vh;
+  height: 70vh;
 }
 
 img#ears {
@@ -462,13 +462,11 @@ button.type-3 {
   display: inline;
   text-align: left;
   position: relative;
-  width: 40vw;
 }
 
 .read-more-state:checked ~ .read-more-wrap .read-more-target {
   opacity: 1;
   font-size: inherit;
-  width: 60vw;
 }
 
 .read-more-state ~ .read-more-trigger:before {
