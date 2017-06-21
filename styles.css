@@ -624,9 +624,8 @@ div#blue-line {
   float: right;
   position: absolute;
   top: 0;
-  right: -5vw;
-  width: 120vw;
-  height: 120vh;
+  width: 100vw;
+  height: 115vh;
   z-index: -1;
   background-image: url(images/book.jpg);
   background-size: cover;
@@ -640,9 +639,11 @@ div#blue-line {
 }
 
 div#promise-content {
-  width: 52vw;
-  height: 100vh;
-  padding: 4.5vw 4.5vw 0;
+  width: 49vw;
+  height: 90vh;
+  padding: 4.5vw 4vw 0;
+  position: absolute;
+  top: 9vh;
 }
 
 #promise-content img {
@@ -699,14 +700,15 @@ img#promise-first {
 
 #logo-big {
   position: absolute;
-  bottom: -18vh;
-  right: 0;
+  bottom: -14vh;
+  right: 1vw;
   width: 20vw;
   margin: 2vw;
 }
 
 #promise-page #sitemap {
-  margin-top: 20vh;
+  position: absolute;
+  bottom: -46vh;
 }
 
 /* FAQ PAGE */
@@ -1429,8 +1431,8 @@ div#blue-line {
   position: absolute;
   top: 0;
   right: -5vw;
-  width: 120vw;
-  height: 120vh;
+  width: 100vw;
+  height: 115vh;
   z-index: -1;
   background-image: url(images/book.jpg);
   background-size: cover;
@@ -1445,8 +1447,10 @@ div#blue-line {
 
 div#promise-content {
   width: 52vw;
-  height: 100vh;
+  height: 90vh;
   padding: 4.5vw 4.5vw 0;
+  position: absolute;
+  top: 10vh;
 }
 
 #promise-content img {
@@ -1503,14 +1507,15 @@ img#promise-first {
 
 #logo-big {
   position: absolute;
-  bottom: -18vh;
-  right: 0;
+  bottom: -12vh;
+  right: 1vw;
   width: 20vw;
   margin: 2vw;
 }
 
 #promise-page #sitemap {
-  margin-top: 20vh;
+  position: absolute;
+  bottom: -46vh;
 }
 
 /* FAQ PAGE */
