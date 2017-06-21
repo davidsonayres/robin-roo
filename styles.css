@@ -425,7 +425,9 @@ img#border-2 {
 
 img#ears {
   position: absolute;
-  top: 0;
+  width: 10vw;
+  top: -9.5vh;
+  left: 3vw;
 }
 
 img#stars {
