@@ -962,49 +962,9 @@ td#bullet {
   padding-left: 10vw;
 }
 
-#agency-fees {
-  width: 100%;
-  height: 64%;
-  position: relative;
-  padding: 4vw;
-}
-
-#agency-fees-left {
-  position: relative;
-  width: 50%;
-  float: left;
-  text-align: center;
-  padding: 2vh 4vw;
-}
-
-#agency-fees-left p {
-  font-size: 1.35vw;
-}
-
-#agency-fees-right {
-  position: relative;
-  width: 50%;
-  height: 100%;
-  float: right;
-  background-image: url("images/laugh-toss.jpg");
-  background-size: cover;
-}
-
-#to-faq {
-  text-align: center;
-}
-
-#to-top {
-  width: 100%;
-  height: 20vh;
-  text-align: center;
-  font-size: 1.1vw;
-  margin-top: 8vh;
-}
-
-#to-top img {
-  width: 3vw;
-  margin-bottom: -1vh;
+#process-content p:nth-of-type(3) {
+  text-align: right;
+  margin-top: 10vh;
 }
 
 /* BOOK A BABYSITTER */
@@ -1093,6 +1053,53 @@ td#bullet {
   flex-direction: column;
   margin: 2vw;
   z-index: 11;
+}
+
+/* AGENCY FEES */
+
+#agency-fees-wrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#agency-fees-wrapper #image {
+  background-image: url('images/laugh-toss.jpg');
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+#image #white-wash {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, white, white, transparent);
+  opacity: 0.97;
+  left: -5vw;
+}
+
+#agency-fees {
+  margin: 10vh 7vw;
+  width: 32vw;
+}
+
+#agency-fees h1 {
+  color: #89C6C5;
+  font-weight: 600;
+  letter-spacing: 0.65vw;
+  font-size: 3vw;
+}
+
+#agency-fees h3 {
+  color: #EAB55C;
+  font-size: 1.5vw;
+}
+
+#agency-fees p:nth-of-type(4) {
+  width: 40vw;
+  margin-top: 10vh;
 }
 
 /* MOBILE RESPONSE */
