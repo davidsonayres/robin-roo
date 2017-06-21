@@ -46,8 +46,8 @@ img#logo {
 }
 
 nav {
-  display: inline-block;
-  padding: 4% 2% 1%;
+  display: flex;
+  padding: 2% 2% 1%;
   float: right;
   margin-top: 1%;
   overflow: hidden;
@@ -62,14 +62,14 @@ nav a:hover {
 
 nav h2 {
   margin: auto 25px;
-  font-size: 1.5vw;
+  font-size: 1.35vw;
   display: inline-flex;
 }
 
 a#home-button:hover,
 a#home-button:active,
-a#blog-button:hover,
-a#blog-button:active {
+a#faq-button:hover,
+a#faq-button:active {
   background-image: url('images/underline-short.svg');
   background-position: 0 105%;
   background-repeat: no-repeat;
@@ -607,8 +607,8 @@ div#blue-line {
   background-repeat: no-repeat;
 }
 
-#promise-page a#blog-button:hover,
-#promise-page a#blog-button:active,
+#promise-page a#faq-button:hover,
+#promise-page a#faq-button:active,
 #promise-page a#process-button:hover,
 #promise-page a#process-button:active,
 #promise-page a#promise-button:hover,
@@ -1413,8 +1413,8 @@ div#blue-line {
   background-repeat: no-repeat;
 }
 
-#promise-page a#blog-button:hover,
-#promise-page a#blog-button:active,
+#promise-page a#faq-button:hover,
+#promise-page a#faq-button:active,
 #promise-page a#process-button:hover,
 #promise-page a#process-button:active,
 #promise-page a#promise-button:hover,
