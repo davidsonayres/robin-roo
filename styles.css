@@ -1067,8 +1067,18 @@ td#bullet {
   position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
   padding: 0 2vw 2vw;
-  background-color: #89C6C5;
+}
+
+#sitemap-background {
+  position: absolute;
+  width: 250%;
+  height: 125%;
+  left: -73%;
+  top: -5%;
+  z-index: 10;
 }
 
 #sitemap p,
@@ -1080,6 +1090,7 @@ td#bullet {
   display: flex;
   flex-direction: column;
   margin: 2vw;
+  z-index: 11;
 }
 
 /* MOBILE RESPONSE */
