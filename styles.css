@@ -1711,6 +1711,54 @@ td#bullet {
     background-color: lightgrey;
   }
 
+  /* AGENCY FEES */
+
+  #agency-fees-wrapper {
+    overflow: hidden;
+    height: auto;
+  }
+
+  #agency-fees-wrapper #image {
+    background-image: url('images/boy-yellow.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 256vw;
+    z-index: -100;
+    left: -87vw;
+  }
+
+  #image #white-wash {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, white, white, transparent);
+    opacity: 0.97;
+    left: -5vw;
+  }
+
+  #agency-fees {
+    margin: 3vh 7vw;
+    width: 86vw;
+  }
+
+  #agency-fees h1 {
+    color: #89C6C5;
+    font-weight: 600;
+    letter-spacing: 0.65vw;
+    font-size: 6vw;
+  }
+
+  #agency-fees h3 {
+    color: #EAB55C;
+    font-size: 4.25vw;
+  }
+
+  #agency-fees p:nth-of-type(4) {
+    width: 86vw;
+    margin-top: 5vh;
+  }
+
   /* SITEMAP */
 
   #sitemap {
