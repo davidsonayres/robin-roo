@@ -444,7 +444,7 @@ button.type-3 {
   font-size: 1.2vw;
   background-color: white;
   border: 1.5px solid white;
-  border-radius: 3px; 
+  border-radius: 3px;
 }
 
 button.type-3:hover {
@@ -1118,7 +1118,7 @@ td#bullet {
 
 #agency-fees p:nth-of-type(4) {
   width: 40vw;
-  margin-top: 10vh;
+  margin-top: 5vh;
 }
 
 /* MOBILE RESPONSE */
