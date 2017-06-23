@@ -179,18 +179,7 @@ img#border {
   letter-spacing: 1.5vw;
 }
 
-/*img#lashes {
-  width: 10vw;
-  border: 0;
-  opacity: 1;
-  position: absolute;
-  top: 4vh;
-  right: 26.80vw;
-}*/
-
 img#lashes {
-  /*top: -3vh;*/
-  /*right: 10.5vw;*/
   width: 10vw;
   position: absolute;
   top: 6vh;
@@ -263,7 +252,7 @@ div#missive {
 
 #missive p {
   font-size: 1.28vw;
-  letter-spacing: 0.3vw;
+  letter-spacing: 0.15vw;
 }
 
 div#image-wrapper {
@@ -345,7 +334,7 @@ div#join-call {
 
 #join-call p {
   font-size: 1.28vw;
-  letter-spacing: 0.3vw;
+  letter-spacing: 0.15vw;
 }
 
 #button-4 {
