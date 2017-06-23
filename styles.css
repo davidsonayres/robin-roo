@@ -656,7 +656,7 @@ div#promise-content {
   height: 90vh;
   padding: 4.5vw 4vw 0;
   position: absolute;
-  top: 9vh;
+  top: 8vh;
 }
 
 #promise-content img {
@@ -683,9 +683,6 @@ div#promise-content {
 #promise-content table img {
   width: 2vw;
   margin-right: 1vw;
-}
-
-#promise-content-box {
 }
 
 #promise-content-box table {
@@ -721,7 +718,7 @@ img#promise-first {
 
 #promise-page #sitemap {
   position: absolute;
-  bottom: -51.5vh;
+  bottom: -47vh;
 }
 
 /* FAQ PAGE */
@@ -1480,7 +1477,7 @@ div#promise-content {
   height: 90vh;
   padding: 4.5vw 4.5vw 0;
   position: absolute;
-  top: 10vh;
+  top: 8vh;
 }
 
 #promise-content img {
@@ -1507,9 +1504,6 @@ div#promise-content {
 #promise-content table img {
   width: 2vw;
   margin-right: 1vw;
-}
-
-#promise-content-box {
 }
 
 #promise-content-box table {
@@ -1545,7 +1539,7 @@ img#promise-first {
 
 #promise-page #sitemap {
   position: absolute;
-  bottom: -40vh;
+  bottom: -25vh;
 }
 
 /* FAQ PAGE */
