@@ -1447,11 +1447,7 @@ td#bullet {
   }
 
   #logo-big {
-    position: absolute;
-    bottom: -12vh;
-    right: 1vw;
-    width: 20vw;
-    margin: 2vw;
+    display: none;
   }
 
   #promise-page #sitemap {
@@ -1464,30 +1460,18 @@ td#bullet {
 
   #faq-header {
     margin: 4vh 4.5vw 0;
-    font-size: 2vw;
+    font-size: 6vw;
     letter-spacing: 0.45vw;
   }
 
   #faq-wrapper {
-    width: 93vw;
-    margin: 0 3.5vw 1vh;
-    color: grey;
-    font-size: 1.1vw;
-    letter-spacing: 0.2vw;
-    vertical-align: top;
-    display: flex;
-    justify-content: flex-start;
-    align-content: flex-start;
-    padding: 1vw;
+    font-size: 3vw;
+    flex-direction: column;
   }
 
   #faq-left-clm {
-    position: relative;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    float: left;
-    padding-top: 0;
+    width: 100%;
+    overflow: visible;
   }
 
   #faq-left-clm p {
@@ -1506,7 +1490,7 @@ td#bullet {
 
   #faq-right-clm {
     position: relative;
-    width: 75%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     float: right;
@@ -1518,19 +1502,16 @@ td#bullet {
   }
 
   #image-3 {
-    background-image: url('images/swing.jpg');
-    background-size: cover;
-    width: 19.5vw;
-    height: 21.5vh;
-    opacity: 0.65;
-    margin-top: 4vh;
+    width: 100vw;
+    height: 30vh;
+    margin-top: 3vh;
   }
 
   #faq-left-clm img {
     position: absolute;
-    width: 5vw;
-    right: 2.5vw;
-    top: 30vh;
+    width: 8vw;
+    right: -1vw;
+    top: 39vh;
   }
 
   /* APPLY PAGE */
@@ -1815,6 +1796,7 @@ td#bullet {
 
   #sitemap {
     font-size: 3.5vw;
+    overflow: visible;
   }
 
 }
