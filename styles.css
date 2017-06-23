@@ -1390,83 +1390,24 @@ td#bullet {
     right: 25vw;
   }
 
-  #social-media {
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 4.5vh;
-    margin-bottom: -3.5vh;
-  }
-
-  #social-media-icon {
-    width: 1.5vw;
-    margin: 1.5vh;
-  }
-
-  #social-media h3 {
-    font-size: 1.25vw;
-    letter-spacing: 0.3vw;
-    padding-top: 8.7vh;
-    margin-right: 1.8vw;
-  }
-
-  #sitemap #border {
-    width: 110%;
-    position: absolute;
-    left: -2vw;
-    top: 0.5vh;
-  }
-
   /* PROMISE PAGE */
-
-  #promise-page {
-    color: white;
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-
-  #promise-page a,
-  #promise-page a:hover,
-  #promise-page a:active,
-  #promise-page a:visited {
-    color: white;
-  }
-
-  #promise-page a#home-button:hover,
-  #promise-page a#home-button:active {
-    background-image: url('images/underline-white.svg');
-    background-position: 20% 110%;
-    background-size: 12vw;
-    background-repeat: no-repeat;
-  }
-
-  #promise-page a#faq-button:hover,
-  #promise-page a#faq-button:active,
-  #promise-page a#process-button:hover,
-  #promise-page a#process-button:active,
-  #promise-page a#promise-button:hover,
-  #promise-page a#promise-button:active,
-  #promise-page a#contact-button:hover,
-  #promise-page a#contact-button:active {
-    background-image: url('images/underline-white.svg');
-    background-position: 0 110%;
-    background-repeat: no-repeat;
-  }
 
   #image-2 {
     float: right;
     position: absolute;
     top: 0;
-    right: -5vw;
-    width: 100vw;
-    height: 115vh;
+    right:0vw;
+    width: 151vw;
+    height: 100vh;
     z-index: -1;
     background-image: url(images/book.jpg);
     background-size: cover;
+    overflow: visible;
   }
 
   #white-wash {
+    position: absolute;
+    right: 0;
     width: 120vw;
     height: 120vh;
     background: linear-gradient(90deg, #393939, white, white);
@@ -1474,28 +1415,21 @@ td#bullet {
   }
 
   div#promise-content {
-    width: 52vw;
-    height: 90vh;
-    padding: 4.5vw 4.5vw 0;
-    position: absolute;
-    top: 8vh;
+    width: 90vw;
+    top: 2vh;
   }
 
   #promise-content img {
-    width: 10vw;
-    margin-left: 1vw;
+    width: 25vw;
   }
 
   #promise-content h1 {
-    font-size: 3.2vw;
-    letter-spacing: 0.65vw;
-    margin: 0;
+    font-size: 8vw;
   }
 
   #promise-content p,
   #promise-content table {
-    font-size: 1.28vw;
-    letter-spacing: 0.3vw;
+    font-size: 3vw;
   }
 
   #promise-content p:last-of-type {
@@ -1507,27 +1441,9 @@ td#bullet {
     margin-right: 1vw;
   }
 
-  #promise-content-box table {
-    border-collapse: separate;
-    border-spacing: 0 1em;
-    width: 120%;
-  }
-
   img#promise-second,
   img#promise-first {
-    width: 3vw;
-    display: block;
-    margin: 5vh auto;
-  }
-
-  img#promise-second:hover,
-  img#promise-first:hover {
-    cursor: pointer;
-  }
-
-  img#promise-first {
-    display: none;
-    transform: rotate(180deg);
+    width: 10vw;
   }
 
   #logo-big {
@@ -1540,7 +1456,8 @@ td#bullet {
 
   #promise-page #sitemap {
     position: absolute;
-    bottom: -25vh;
+    bottom: -20vh;
+    overflow: visible;
   }
 
   /* FAQ PAGE */
