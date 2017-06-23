@@ -179,13 +179,26 @@ img#border {
   letter-spacing: 1.5vw;
 }
 
-img#lashes {
+/*img#lashes {
   width: 10vw;
   border: 0;
   opacity: 1;
   position: absolute;
   top: 4vh;
   right: 26.80vw;
+}*/
+
+img#lashes {
+  /*top: -3vh;*/
+  /*right: 10.5vw;*/
+  width: 10vw;
+  position: absolute;
+  top: 6vh;
+  left: 4.5vw;
+}
+
+#lash-wrap {
+  position: relative;
 }
 
 #tag {
@@ -1146,9 +1159,16 @@ img#logo {
 }
 
 img#lashes {
+  /*top: -3vh;*/
+  /*right: 10.5vw;*/
   width: 18vw;
-  top: -3vh;
-  right: 10.5vw;
+  position: absolute;
+  top: 6vh;
+  left: 1vw;
+}
+
+#lash-wrap {
+  padding-top: 15vh;
 }
 
 #tag {
