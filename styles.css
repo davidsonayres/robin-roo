@@ -1052,7 +1052,7 @@ td#bullet {
   flex-direction: row;
   justify-content: flex-end;
   padding: 0 2vw 2vw;
-  overflow: visible;
+  overflow-y: visible;
 }
 
 #sitemap-background {
@@ -1763,7 +1763,7 @@ td#bullet {
 
   #sitemap {
     font-size: 3.5vw;
-    overflow: visible;
+    overflow-y: visible;
   }
 
 }
