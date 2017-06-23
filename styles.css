@@ -8,6 +8,12 @@ E86D55 red
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   text-decoration: none;
+  overflow-x: hidden;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -15,7 +21,6 @@ body {
   height: 100%;
   margin: 0;
   color: #4D4D4D;
-  overflow-x: hidden;
 }
 
 a,
@@ -1124,7 +1129,7 @@ td#bullet {
 
 /* MOBILE RESPONSE */
 
-@media (max-width: 479px) {
+@media (min-width: 300px) and (max-width: 479px) {
 
   .mobile {
     display: inline;
@@ -1134,13 +1139,14 @@ td#bullet {
     display: none;
   }
 
-  /* MAIN PAGE & LAYOUT */
-
-  img#logo {
+  #nav-wrapper,
+  #contact-page #nav-wrapper {
     display: none;
   }
 
-  #nav-wrapper {
+  /* MAIN PAGE & LAYOUT */
+
+  img#logo {
     display: none;
   }
 
@@ -1149,7 +1155,6 @@ td#bullet {
     width: 100vw;
     height: 100vh;
     color: black;
-    overflow: hidden;
   }
 
   #landing-img {
@@ -1158,7 +1163,7 @@ td#bullet {
 
   #landing #border {
     bottom: 0vh;
-    left: -6vw;
+    right: 0vw;
     position: absolute;
     width: 200vw;
   }
@@ -1223,7 +1228,7 @@ td#bullet {
   }
 
   #who-we-are {
-    height: 95vh;
+    /*height: 95vh;*/
     position: relative;
   }
 
@@ -1247,7 +1252,7 @@ td#bullet {
 
   div#join-us {
     width: 100vw;
-    height: 88vh;
+    /*height: 88vh;*/
   }
 
   #join-us img {
