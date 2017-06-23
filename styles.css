@@ -933,9 +933,16 @@ textarea:focus {
   width: 100%;
   height: 120%;
   margin-top: 1vh;
+  position: relative;
+}
+
+#process-wrapper #image {
   background-image: url('images/reading-laughing.jpg');
   background-size: cover;
-  position: relative;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 10vw;
 }
 
 #kid-laugh-wash {
@@ -951,7 +958,6 @@ textarea:focus {
   width: 58vw;
   margin: 5vh 3vw 1vw;
   height: 95%;
-  overflow: scroll;
 }
 
 #process-content table {
@@ -969,15 +975,6 @@ textarea:focus {
 td#bullet {
   position: relative;
   width: 40px;
-}
-
-#process-content p:nth-of-type(2) {
-  padding-left: 10vw;
-}
-
-#process-content p:nth-of-type(3) {
-  text-align: right;
-  margin-top: 10vh;
 }
 
 /* BOOK A BABYSITTER */
