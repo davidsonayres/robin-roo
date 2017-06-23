@@ -345,7 +345,6 @@ div#testimonials {
   width: 100vw;
   margin-top: 8vh;
   position: relative;
-  /*margin-bottom: 7vh;*/
   overflow: visible;
 }
 
@@ -386,7 +385,7 @@ img#border-2 {
 #testimonial-wrapper {
   width: 80vw;
   color: white;
-  margin: 15vh 10vw;
+  margin: 15vh 10vw 0;
   font-size: 1.28vw;
   position: relative;
   display: flex;
@@ -420,15 +419,15 @@ img#border-2 {
   right: 0;
   position: relative;
   margin-left: 2.5%;
-  letter-spacing: 0.25vw;
+  letter-spacing: 0.15vw;
   font-size: 1.45vw;
-  height: 70vh;
+  height: 64vh;
 }
 
 img#ears {
   position: absolute;
   width: 10vw;
-  top: -9.5vh;
+  top: -9vh;
   left: 3vw;
 }
 
@@ -475,10 +474,13 @@ button.type-3 {
 
 .read-more-state ~ .read-more-trigger:before {
   content: 'READ MORE';
+  position: absolute;
+  top: 14vh;
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
   content: 'READ LESS';
+  position: static;
 }
 
 .read-more-trigger {
@@ -488,6 +490,7 @@ button.type-3 {
   font-size: .9em;
   line-height: 2;
   border-radius: .25em;
+  color: #EAB55C;
 }
 
 
