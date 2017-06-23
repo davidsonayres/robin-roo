@@ -808,6 +808,7 @@ img#promise-first {
   margin-top: 3vh;
   margin-bottom: 0;
   position: relative;
+  overflow: visible;
 }
 
 #apply-wrapper img{
@@ -824,6 +825,7 @@ img#promise-first {
   clear: both;
   margin: 1.5vh 0 -5vh 10vw;
   position: relative;
+  overflow: visible;
 }
 
 #apply-form h1 {
@@ -870,7 +872,9 @@ textarea:focus {
 }
 
 #apply-page #sitemap {
-  margin-top: 80vh;
+  position: absolute;
+  bottom: -3vh;
+  overflow: visible;
 }
 
 /* REQUEST PAGE */
@@ -1524,43 +1528,28 @@ td#bullet {
   }
 
   #apply-wrapper img{
-    width: 22vw;
-    position: absolute;
-    right: 10vw;
-    margin-top: 4.5vh;
-    opacity: 0.65;
+    position: relative;
+    display: block;
+    width: 58vw;
+    transform: rotate(-90deg);
+    margin: 0 auto 0 30vw;
   }
 
   #apply-form {
-    width: 53vw;
-    float: left;
-    clear: both;
-    margin: 1.5vh 0 -5vh 10vw;
+    width: 86vw;
+    display: block;
+    margin: auto 7vw;
     position: relative;
+    overflow: visible;
   }
 
   #apply-form h1 {
-    text-align: right;
-    font-size: 1.7vw;
-    letter-spacing: 0.3vw;
-    margin-bottom: 5vh;
+    font-size: 5vw;
   }
 
   #apply-form input,
   #apply-form textarea {
-    width: 100%;
-    font-size: 1.3vw;
-    margin-bottom: 1vh;
-    padding: 1.5%;
-    padding-left: 2%;
-    border: 0;
-    color: grey;
-    background-color: #EFF7F7;
-  }
-
-  input:focus,
-  textarea:focus {
-    outline: 0 !important;
+    font-size: 3vw;
   }
 
   #apply-form input:nth-of-type(3) {
@@ -1569,21 +1558,8 @@ td#bullet {
     right: 0;
   }
 
-  #apply-page #social-media {
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: auto auto 5vh 10.5vw;
-    padding-top: 3vh;
-  }
-
-  #apply-page #social-media h3 {
-    padding-top: 0;
-    margin-top: 1.2vh;
-    margin-bottom: 4vh;
-  }
-
   #apply-page #sitemap {
-    margin-top: 80vh;
+    bottom: -15vh;
   }
 
   /* REQUEST PAGE */
