@@ -444,6 +444,12 @@ button.type-3 {
   font-size: 1.2vw;
   background-color: white;
   border: 1.5px solid white;
+  border-radius: 3px; 
+}
+
+button.type-3:hover {
+  background-color: transparent;
+  color: white;
 }
 
 #testimonials span {
