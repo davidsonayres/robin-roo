@@ -1052,6 +1052,7 @@ td#bullet {
   flex-direction: row;
   justify-content: flex-end;
   padding: 0 2vw 2vw;
+  overflow: visible;
 }
 
 #sitemap-background {
@@ -1659,7 +1660,7 @@ td#bullet {
 
   #babysitter-wrapper {
     background-image: url('images/pink-girl.jpg');
-    background-position: 0 50%;
+    background-position: 24% 50%;
     background-size: cover;
     height: 180vh;
     position: relative;
@@ -1669,16 +1670,16 @@ td#bullet {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(white, transparent);
-    opacity: 1;
+    background: linear-gradient(white, white, transparent);
+    opacity: 0.9;
   }
 
   #babysitter-form-wrapper {
-    width: 62vw;
-    margin-left: 10vw;
+    width: 86vw;
+    margin-left: 7vw;
     z-index: 100;
     position: absolute;
-    top: 25vh;
+    top: 0vh;
     color: grey;
   }
 
@@ -1689,7 +1690,7 @@ td#bullet {
   #babysitter-form input,
   #babysitter-form textarea {
     width: 100%;
-    font-size: 1.3vw;
+    font-size: 3vw;
     margin-bottom: 1vh;
     padding: 1.5%;
     padding-left: 2%;
@@ -1702,11 +1703,11 @@ td#bullet {
   #babysitter-form input:nth-of-type(2),
   #babysitter-form input:nth-of-type(3),
   #babysitter-form input:nth-of-type(4) {
-    width: 65%;
+    width: 75%;
   }
 
   #babysitter-form input:nth-of-type(5) {
-    width: 45%;
+    width: 100%;
     background-color: lightgrey;
   }
 
