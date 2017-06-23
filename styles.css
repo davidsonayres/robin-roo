@@ -891,10 +891,12 @@ textarea:focus {
   width: 53vw;
   right: 7vw;
   top: 30vh;
+  overflow: visible;
 }
 
 #request-form {
   width: 100%;
+  overflow: visible;
 }
 
 #request-form h1 {
@@ -932,7 +934,8 @@ textarea:focus {
 
 #request-page #sitemap {
   position: absolute;
-  bottom: -68vh;
+  bottom: -32vw;
+  overflow: visible;
 }
 
 /* PROCESS PAGE */
@@ -1566,24 +1569,27 @@ td#bullet {
 
   #request-image {
     position: absolute;
-    top: 15vh;
-    width: 100vw;
+    width: 250vw;
+    top: 0vh;
+    left: -43vw;
     z-index: -100;
+    opacity: 0.8;
   }
 
   #request-wrapper {
     position: absolute;
-    width: 53vw;
-    right: 7vw;
-    top: 30vh;
+    width: 80vw;
+    right: 10vw;
+    top: 4vh;
+    overflow: visible;
   }
 
   #request-form {
-    width: 100%;
+    overflow: visible;
   }
 
   #request-form h1 {
-    font-size: 1.7vw;
+    font-size: 6vw;
     letter-spacing: 0.3vw;
     color: #89C6C5;
     margin-bottom: 5vh;
@@ -1592,7 +1598,7 @@ td#bullet {
   #request-form input,
   #request-form textarea {
     width: 67%;
-    font-size: 1.3vw;
+    font-size: 3vw;
     margin-bottom: 1vh;
     padding: 1.5%;
     padding-left: 2%;
@@ -1610,14 +1616,9 @@ td#bullet {
     right: 0;
   }
 
-  #request-wrapper #social-media {
-    justify-content: flex-start;
-    margin: -11.5vh 1vw;
-  }
-
   #request-page #sitemap {
     position: absolute;
-    bottom: -68vh;
+    bottom: 0vh;
   }
 
   /* PROCESS PAGE */
