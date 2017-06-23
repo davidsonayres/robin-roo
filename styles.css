@@ -1132,7 +1132,7 @@ td#bullet {
 
 /* MOBILE RESPONSE */
 
-@media (min-width: 300px) and (max-width: 479px) {
+@media (min-device-width: 300px) and (max-device-width: 479px) {
 
   .mobile {
     display: inline;
