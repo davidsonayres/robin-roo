@@ -1625,11 +1625,18 @@ td#bullet {
 
   #process-wrapper {
     width: 100%;
-    height: 120%;
-    margin-top: 1vh;
+    height: 100vh;
+    margin-top: 0vh;
+    position: relative;
+  }
+
+  #process-wrapper #image {
     background-image: url('images/reading-laughing.jpg');
     background-size: cover;
-    position: relative;
+    position: absolute;
+    width: 130vw;
+    height: 100%;
+    right: 20vw;
   }
 
   #kid-laugh-wash {
@@ -1642,76 +1649,10 @@ td#bullet {
   #process-content {
     position: absolute;
     right: 0;
-    width: 58vw;
-    margin: 5vh 3vw 1vw;
-    height: 95%;
+    width: 86vw;
+    margin: 3vh 7vw 1vw;
+    height: 90%;
     overflow: scroll;
-  }
-
-  #process-content table {
-    margin: 3vh auto;
-    border-spacing: 0.8vw 2.5vh;
-  }
-
-  #process-content table img {
-    width: 18px;
-    position: absolute;
-    top: -0.9vh;
-    margin: 1vw;
-  }
-
-  td#bullet {
-    position: relative;
-    width: 40px;
-  }
-
-  #process-content p:nth-of-type(2) {
-    padding-left: 10vw;
-  }
-
-  #agency-fees {
-    width: 100%;
-    height: 64%;
-    position: relative;
-    padding: 4vw;
-  }
-
-  #agency-fees-left {
-    position: relative;
-    width: 50%;
-    float: left;
-    text-align: center;
-    padding: 2vh 4vw;
-  }
-
-  #agency-fees-left p {
-    font-size: 1.35vw;
-  }
-
-  #agency-fees-right {
-    position: relative;
-    width: 50%;
-    height: 100%;
-    float: right;
-    background-image: url("images/laugh-toss.jpg");
-    background-size: cover;
-  }
-
-  #to-faq {
-    text-align: center;
-  }
-
-  #to-top {
-    width: 100%;
-    height: 20vh;
-    text-align: center;
-    font-size: 1.1vw;
-    margin-top: 8vh;
-  }
-
-  #to-top img {
-    width: 3vw;
-    margin-bottom: -1vh;
   }
 
   /* BOOK A BABYSITTER */
