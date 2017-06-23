@@ -1034,7 +1034,6 @@ td#bullet {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  text-align: right;
   padding: 0 2vw 2vw;
 }
 
@@ -1050,13 +1049,19 @@ td#bullet {
 #sitemap p,
 #sitemap a {
   color: white;
+  margin: 0.8vh;
 }
 
 #sitemap div {
   display: flex;
   flex-direction: column;
-  margin: 2vw;
+  margin: 3vw 2vw 2vw;
   z-index: 11;
+}
+
+#sitemap #address {
+  position: absolute;
+  left: 2vw;
 }
 
 /* AGENCY FEES */
