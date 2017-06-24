@@ -856,6 +856,7 @@ textarea:focus {
   width: 45%;
   position: absolute;
   right: 0;
+  cursor: pointer;
 }
 
 #apply-page #social-media {
@@ -925,6 +926,7 @@ textarea:focus {
   width: 45%;
   position: absolute;
   right: 0;
+  cursor: pointer;
 }
 
 #request-wrapper #social-media {
@@ -1041,6 +1043,7 @@ td#bullet {
 #babysitter-form input:nth-of-type(5) {
   width: 45%;
   background-color: lightgrey;
+  cursor: pointer;
 }
 
 /* SITEMAP */
@@ -1560,6 +1563,7 @@ td#bullet {
     width: 45%;
     position: absolute;
     right: 0;
+    cursor: pointer;
   }
 
   #apply-page #sitemap {
@@ -1615,6 +1619,7 @@ td#bullet {
     width: 45%;
     position: absolute;
     right: 0;
+    cursor: pointer;
   }
 
   #request-page #sitemap {
@@ -1709,6 +1714,7 @@ td#bullet {
   #babysitter-form input:nth-of-type(5) {
     width: 100%;
     background-color: lightgrey;
+    cursor: pointer;
   }
 
   /* AGENCY FEES */
