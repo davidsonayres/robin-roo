@@ -1214,7 +1214,6 @@ td#bullet {
     border: 1.5px solid #EAB55C;
     width: 60vw;
     font-size: 3.5vw;
-    color: #EAB55C;
   }
 
   button.type-1:hover {
@@ -1250,13 +1249,12 @@ td#bullet {
   }
 
   #who-we-are {
-    /*height: 95vh;*/
     position: relative;
   }
 
   #read-more {
     position: relative;
-    padding: 2vh 13vw;
+    padding: 2vh 6vw;
   }
 
   #read-more h1 {
@@ -1274,7 +1272,6 @@ td#bullet {
 
   div#join-us {
     width: 100vw;
-    /*height: 88vh;*/
   }
 
   #join-us img {
@@ -1290,6 +1287,8 @@ td#bullet {
 
   div#join-call {
     width: 90vw;
+    float: none;
+    padding: 0 5vw;
   }
 
   #join-call h1 {
@@ -1306,7 +1305,7 @@ td#bullet {
   }
 
   div#testimonials #image {
-    background-position: 82.5%;
+    background-position: 75%;
   }
 
   img#border-2 {
@@ -1785,7 +1784,14 @@ td#bullet {
 
   #sitemap {
     font-size: 3.5vw;
-    overflow-y: visible;
+    overflow-x: hidden;
   }
+
+  #sitemap-border {
+    width: 200vw;
+    right: 0vw;
+    display: none;
+  }
+
 
 }
