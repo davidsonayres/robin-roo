@@ -8,7 +8,6 @@ E86D55 red
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
   text-decoration: none;
-  overflow-x: hidden;
 }
 
 body {
@@ -353,12 +352,10 @@ div#testimonials {
   width: 100vw;
   margin-top: 8vh;
   position: relative;
-  overflow: visible;
 }
 
 div#testimonials #image {
   position: absolute;
-  overflow: visible;
   background-image: url('images/bubble-run.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -1057,6 +1054,14 @@ td#bullet {
   justify-content: flex-end;
   padding: 0 2vw 2vw;
   overflow-y: visible;
+  background-color: #89C6C5;
+}
+
+#sitemap-border {
+  position: absolute;
+  top: -1.25vh;
+  left: -1vw;
+  width: 110vw;
 }
 
 #sitemap-background {
@@ -1066,6 +1071,7 @@ td#bullet {
   left: -73%;
   top: -5%;
   z-index: 10;
+  display: none;
 }
 
 #sitemap p,
