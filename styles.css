@@ -1549,14 +1549,6 @@ td#bullet {
     position: relative;
   }
 
-  #apply-wrapper img{
-    position: relative;
-    display: block;
-    width: 58vw;
-    transform: rotate(-90deg);
-    margin: 0 auto 0 30vw;
-  }
-
   #apply-form {
     width: 86vw;
     display: block;
@@ -1582,7 +1574,7 @@ td#bullet {
   }
 
   #apply-page #sitemap {
-    bottom: -15vh;
+    bottom: 0vh;
   }
 
   /* REQUEST PAGE */
