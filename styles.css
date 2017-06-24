@@ -872,8 +872,7 @@ textarea:focus {
 
 #apply-page #sitemap {
   position: absolute;
-  bottom: -3vh;
-  overflow: visible;
+  bottom: -28vh;
 }
 
 /* REQUEST PAGE */
