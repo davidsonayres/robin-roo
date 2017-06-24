@@ -1491,7 +1491,7 @@ td#bullet {
   }
 
   #faq-wrapper {
-    font-size: 3vw;
+    font-size: 4vw;
     flex-direction: column;
   }
 
@@ -1520,7 +1520,7 @@ td#bullet {
     display: flex;
     flex-direction: column;
     float: right;
-    padding-top: 0;
+    padding: 0 2vw 0 1.5vw;
   }
 
   #faq-right-clm span {
@@ -1528,16 +1528,17 @@ td#bullet {
   }
 
   #image-3 {
-    width: 100vw;
+    width: 100%;
     height: 30vh;
     margin-top: 3vh;
+    position: relative;
   }
 
   #faq-left-clm img {
     position: absolute;
     width: 8vw;
     right: -1vw;
-    top: 39vh;
+    top: 43vh;
   }
 
   /* APPLY PAGE */
