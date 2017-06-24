@@ -883,6 +883,15 @@ textarea:focus {
   top: 15vh;
   width: 100vw;
   z-index: -100;
+  left: -23vw;
+}
+
+#request-page #white-wash {
+  opacity: 0.95;
+  background: linear-gradient(90deg, transparent, white, white);
+  right: -12vw;
+  position: absolute;
+  z-index: -99;
 }
 
 #request-wrapper {
@@ -914,6 +923,7 @@ textarea:focus {
   padding-left: 2%;
   border: 0;
   opacity: 0.85;
+  background-color: #EFF7F7;
 }
 
 #request-form textarea {
