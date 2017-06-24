@@ -1589,11 +1589,19 @@ td#bullet {
 
   #request-image {
     position: absolute;
-    width: 250vw;
+    width: 205vw;
     top: 0vh;
-    left: -43vw;
+    left: -45vw;
     z-index: -100;
-    opacity: 0.8;
+    opacity: 1;
+  }
+
+  #request-page #white-wash {
+    opacity: 0.95;
+    background: linear-gradient(white, transparent);
+    right: 0vw;
+    position: absolute;
+    z-index: -99;
   }
 
   #request-wrapper {
