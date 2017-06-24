@@ -1694,6 +1694,10 @@ td#bullet {
     position: relative;
   }
 
+  #babysitter-wrapper p {
+    font-size: 4.5vw;
+  }
+
   #babysitter-wrapper #white-wash {
     position: absolute;
     width: 100%;
