@@ -1423,7 +1423,7 @@ td#bullet {
     position: absolute;
     top: 0;
     right:0vw;
-    width: 151vw;
+    width: 131vw;
     height: 100vh;
     z-index: -1;
     background-image: url(images/book.jpg);
@@ -1442,6 +1442,7 @@ td#bullet {
 
   div#promise-content {
     width: 90vw;
+    height: 95vh;
     top: 2vh;
   }
 
@@ -1478,8 +1479,7 @@ td#bullet {
 
   #promise-page #sitemap {
     position: absolute;
-    bottom: -20vh;
-    overflow: visible;
+    bottom: -25vh;
   }
 
   /* FAQ PAGE */
