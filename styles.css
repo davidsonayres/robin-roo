@@ -967,9 +967,10 @@ textarea:focus {
 
 #kid-laugh-wash {
   height: 100%;
-  width: 100%;
+  width: 92%;
   position: absolute;
-  background: linear-gradient(90deg, transparent, white);
+  right: 0;
+  background: linear-gradient(90deg, transparent, white, white);
 }
 
 #process-content {
