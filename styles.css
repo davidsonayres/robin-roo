@@ -203,6 +203,17 @@ img#lashes {
   letter-spacing: 0.5vw;
 }
 
+#landing-button-wrapper {
+  width: 50vw;
+  margin: auto 25vw;
+  height: 20vh;
+  position: absolute;
+  top: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 button.type-1 {
   border: 1.5px solid white;
   border-radius: 2px;
@@ -229,17 +240,7 @@ button:focus {
 
 #button-1,
 #button-2 {
-  bottom: 24.5vh;
-}
-
-#button-1 {
-  right: 0;
-  margin-right: 51vw;
-}
-
-#button-2 {
-  left: 0;
-  margin-left: 51vw;
+  position: relative;
 }
 
 div#who-we-are {
