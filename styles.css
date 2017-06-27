@@ -155,7 +155,7 @@ a#process-button:active {
 
 #landing {
   text-align: center;
-  width: 100%;
+  width: 100vw;
   color: black;
   overflow: hidden;
 }
@@ -176,7 +176,7 @@ img#border {
 #tag {
   position: absolute;
   z-index: 1;
-  width: 100%;
+  width: 100vw;
 }
 
 #name {
@@ -1177,78 +1177,99 @@ td#bullet {
     display: none;
   }
 
-  #nav-wrapper,
-  #contact-page #nav-wrapper {
-    display: none;
+  #nav-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 12vh;
+    background-color: white;
   }
 
   /* MAIN PAGE & LAYOUT */
 
   img#logo {
-    display: none;
+    position: absolute;
+    width: 80vw;
+    margin: auto 10vw;
+    top: 20vh;
+    left: 0;
   }
 
   #landing {
     text-align: center;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     color: black;
+    overflow: hidden;
   }
 
   #landing-img {
-    display: none;
+    width: 200vw;
+    left: -20vw;
+    top: 12vh;
+    position: absolute;
+    opacity: 0.3;
+    clip:  rect(0px 10px 0px 0px);
+    overflow: hidden;
   }
 
   #landing #border {
-    bottom: 0vh;
+    bottom: -7vh;
     right: 0vw;
     position: absolute;
-    width: 200vw;
+    width: 100vw;
   }
 
   #name {
-    font-size: 15vw;
-    top: 12vh;
-  }
-
-  img#lashes {
-    width: 18vw;
-    position: absolute;
-    top: 4vh;
-    left: 7vw;
+    font-size: 12vw;
+    position: fixed;
+    top: -2vh;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #lash-wrap {
-    position: relative;
+    display: none;
   }
 
   #tag {
-    top: 28vh;
+    top: 56.5vh;
+  }
+
+  #landing-button-wrapper {
+    width: 100vw;
+    flex-direction: column;
+    margin: 0;
+    top: 80vh;
   }
 
   button.type-1 {
     border: 1.5px solid #EAB55C;
-    width: 60vw;
-    font-size: 3.5vw;
-  }
-
-  button.type-1:hover {
-    background-color: #EAB55C;
-    color: white;
-  }
-
-  #button-1,
-  #button-2 {
-    margin-left: 20vw;
-    margin-right: 20vw;
+    width: 80vw;
+    font-size: 5vw;
+    position: relative;
   }
 
   #button-1 {
-    bottom: 40vh;
+    color: white;
+    background-color: #89C6C5;
+    border: #89C6C5;
+  }
+
+  #button-1:hover {
+    background-color: white;
+    color: #89C6C5;
   }
 
   #button-2 {
-    bottom: 25vh;
+    color: white;
+    background-color: #EAB55C;
+  }
+
+  #button-1:hover {
+    background-color: white;
+    color: #EAB55C;
   }
 
   div#missive {
@@ -1258,10 +1279,13 @@ td#bullet {
 
   #missive h1 {
     font-size: 6vw;
+    color: #4D4D4D;
+    text-align: center;
   }
 
   #missive p {
-    font-size: 3.5vw;
+    font-size: 5vw;
+    text-align: center;
   }
 
   #who-we-are {
@@ -1270,35 +1294,46 @@ td#bullet {
 
   #read-more {
     position: relative;
-    padding: 2vh 6vw;
+    padding: 2vh 5vw;
   }
 
   #read-more h1 {
     font-size: 6vw;
+    color: #4D4D4D;
   }
 
   #read-more p {
-    font-size: 3.5vw;
+    font-size: 5vw;
   }
 
   button.type-2 {
-    width: 60vw;
-    font-size: 3.5vw;
+    width: 80vw;
+    font-size: 5vw;
   }
 
   div#join-us {
     width: 100vw;
+    margin: 0;
   }
 
   #join-us img {
-    width: 87vw;
-    margin: auto 4vw;
+    width: 140vw;
+    z-index: -2;
+    position: absolute;
+    left: -20vw;
+  }
+
+  #dark-wash {
+    z-index: -1;
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    background-color: grey;
+    opacity: 0.4;
   }
 
   img#circles {
-    width: 12vw;
-    top: -25vh;
-    right: 2vw;
+    display: none;
   }
 
   div#join-call {
