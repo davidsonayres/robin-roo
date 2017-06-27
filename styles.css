@@ -288,7 +288,7 @@ div#read-more {
 
 #read-more p {
   font-size: 1.28vw;
-  letter-spacing: 0.3vw;
+  letter-spacing: 0.15vw;
 }
 
 button.type-2 {
@@ -679,7 +679,7 @@ div#promise-content {
 #promise-content p,
 #promise-content table {
   font-size: 1.28vw;
-  letter-spacing: 0.3vw;
+  letter-spacing: 0.15vw;
 }
 
 #promise-content p:last-of-type {
@@ -740,7 +740,7 @@ img#promise-first {
   margin: 0 3.5vw 1vh;
   color: grey;
   font-size: 1.1vw;
-  letter-spacing: 0.2vw;
+  letter-spacing: 0.15vw;
   vertical-align: top;
   display: flex;
   justify-content: flex-start;
