@@ -1179,11 +1179,16 @@ td#bullet {
 
   #nav-wrapper {
     position: fixed;
+    z-index: 2000;
     top: 0;
     left: 0;
     width: 100vw;
     height: 12vh;
     background-color: white;
+  }
+
+  #sitemap {
+    display: none;
   }
 
   /* MAIN PAGE & LAYOUT */
@@ -1227,6 +1232,7 @@ td#bullet {
     top: -2vh;
     margin-left: auto;
     margin-right: auto;
+    z-index: 2001;
   }
 
   #lash-wrap {
@@ -1313,14 +1319,15 @@ td#bullet {
 
   div#join-us {
     width: 100vw;
+    padding: 5vh auto;
     margin: 0;
   }
 
   #join-us img {
-    width: 140vw;
+    width: 179vw;
     z-index: -2;
     position: absolute;
-    left: -20vw;
+    left: -40vw;
   }
 
   #dark-wash {
@@ -1337,50 +1344,66 @@ td#bullet {
   }
 
   div#join-call {
-    width: 90vw;
+    width: 100vw;
     float: none;
-    padding: 0 5vw;
+    padding: 0 7vw 2vw;
+    text-align: center;
   }
 
   #join-call h1 {
-    font-size: 6vw;
+    font-size: 8vw;
+    margin-top: 0;
+    padding-top: 3vh;
   }
 
   #join-call p {
-    font-size: 3.5vw;
+    font-size: 5vw;
+    color: white;
   }
 
   #button-4 {
-    margin-left: 13vw;
-    margin-right: 20vw;
+    margin-left: 4vw;
+    margin-right: 7vw;
   }
 
   div#testimonials #image {
     background-position: 75%;
+    display: none;
   }
 
   img#border-2 {
     width: 350vw;
   }
 
+  #testimonials {
+    height: auto;
+  }
+
   #testimonials h1 {
-    font-size: 6vw;
-    padding: 4vh 0 0 6vw;
+    font-size: 8vw;
+    padding: 0;
+    color: #89C6C5;
+    text-align: center;
   }
 
   #testimonial-wrapper {
-    margin: 15vh 7vw;
+    margin: 12vh 3vw;
     height: 100vh;
+    width: 94vw;
+    color: #4D4D4D;
+    flex-direction: column;
   }
 
   #testimonial-wrapper-left {
-    width: 30%;
-    font-size: 3vw;
+    width: 94vw;
+    font-size: 4.5vw;
+    display: block;
+    position: relative;
   }
 
   #testimonial-image-wrapper {
-    width: 14vw;
-    height: 14vw;
+    width: 40vw;
+    height: 40vw;
   }
 
   #testimonial-image-wrapper img {
@@ -1388,9 +1411,12 @@ td#bullet {
   }
 
   #testimonial-wrapper-right {
-    font-size: 3.5vw;
-    height: 80vh;
-    overflow: scroll;
+    font-size: 5vw;
+    width: 88vw;
+    margin: 5vh 3vw;
+    text-align: center;
+    display: block;
+    height: auto;
   }
 
   img#ears {
@@ -1398,9 +1424,14 @@ td#bullet {
     top: 0;
   }
 
+  img#stars {
+    width: 45%;
+  }
+
   button.type-3 {
     width: 60vw;
     font-size: 3.5vw;
+    position: relative;
   }
 
   #testimonials span {
@@ -1411,7 +1442,9 @@ td#bullet {
   .read-more-state ~ .read-more-trigger:before {
     content: 'READ MORE';
     position: absolute;
-    top: 33vh;
+    display: block;
+    top: 31vh;
+    right: 7vw;
   }
 
   #index #sitemap {
