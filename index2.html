@@ -11,17 +11,25 @@
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
+    <script src="https://use.fontawesome.com/505c1bc0f3.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT|Open+Sans:300" rel="stylesheet">
     <title>ROBIN & ROO</title>
   </head>
   <body id="index">
     <div id="nav-wrapper">
       <a href="index.html"><img id="logo" class="desktop" src='images/logo.svg'></a>
-      <nav>
-        <h2><a id="home-button" href="index.html">HOME</a></h2>
-        <h2><a id="promise-button" href="promise.html">OUR PROMISE</a></h2>
-        <h2><a id="process-button" href="process.html">OUR PROCESS</a></h2>
-        <h2><a id="contact-button"href="contact.html">GET IN TOUCH</a></h2>
+      <button onclick="myFunction()" class="dropbtn" class="mobile"><img id="menu-button" src="images/nav-icon.png"></button>
+      <nav id="nav" class="dropdown-content">
+        <h2><a id="home-button" href="index.html">Home</a></h2>
+        <h2><a class="mobile" href="request.html">Find a Nanny</a></h2>
+        <h2><a class="mobile" href="book-a-babysitter.html">Book a Babysitter</a></h2>
+        <h2><a id="promise-button" href="promise.html">Our Promise</a></h2>
+        <h2><a id="process-button" href="process.html">Our Process</a></h2>
+        <h2><a href="agency-fees.html">Agency Fees</a></h2>
+        <h2><a class="mobile" href="apply.html">Work With Us</a></h2>
+        <h2><a class="mobile" href="faq.html">FAQ</a></h2>
+        <h2><a id="contact-button"href="contact.html">Get In Touch</a></h2>
       </nav>
     </div>
     <div id="landing">
@@ -33,9 +41,10 @@
       </div>
       <img id="landing-img" src='images/bubble-blow.jpg'>
       <a href="index.html"><img id="logo" class="mobile" src='images/logo.svg'></a>
-      <img id="border" src="images/border-blue.svg">
+      <img id="border" class="desktop" src="images/border-blue.svg">
     </div>
     <div id="who-we-are">
+      <img id="divide" class="mobile" src="images/blue-divide.svg">
       <div id="missive">
         <h1>WHO WE ARE</br>AND HOW WE HELP</h1>
         <p>Robin & Roo provides families with Toronto's best nannies and on-call babysitters. We have a dedicated team of nannies to suit your unique childcare needs. Whether you need a babysitter, full-time, part-time, or travel nanny, Robin & Roo Sitters and Nannies is <span class="bold">committed to finding the perfect caregiver</span> to blend into the unique fabric of your family.</p>
@@ -45,6 +54,7 @@
       </div>
     </div>
     <div id="read-more">
+      <img id="divide" class="mobile" src="images/gold-divide.svg">
       <h1>CHOOSE FROM A DEDICATED TEAM OF CHILDREN'S CAREGIVERS</h1>
       <p class="desktop">All of our nannies and babysitters have gone through</br>an extensive and rigorous prescreening assessment.</p>
 
@@ -65,6 +75,7 @@
       <div id="image">
         <div id="blue-wash"></div>
       </div>
+      <img id="divide" class="mobile" src="images/blue-divide.svg">
       <h1>LOOK WHO'S TALKING</br>(ABOUT US)</h1>
       <div id="testimonial-wrapper">
         <div id="testimonial-wrapper-left">
@@ -72,6 +83,7 @@
             <img src="images/toys.jpg">
           </div>
           <img id="ears" class="desktop" src="images/bunny-ears.svg">
+          <img id="ears" class="mobile" src="images/bunny-ears-blue.svg">
           <p>Joanna Polley,</br>Mother of 3</p>
           <img id="stars" src="images/stars.svg">
         </div>
@@ -94,9 +106,9 @@
     </div>
 
     <div id="sitemap">
-      <img id="sitemap-border" src="images/border-blue.svg">
-      <div id="address">
-        <p><em>Robin and Roo <span class="desktop">Sitters and Nannies</span></em></p>
+      <img id="sitemap-border" class="desktop" src="images/border-blue.svg">
+      <div class="desktop" id="address">
+        <p><em>Robin and Roo Sitters and Nannies</em></p>
         <p>Toronto, ON</p>
         <p>Canada</p>
         <p>Copyright 2017</p>
@@ -115,6 +127,32 @@
         <a href="contact.html">Contact Us</a>
       </div>
     </div>
+
+    <script type="text/javascript">
+      function myFunction() {
+          document.getElementById("nav").classList.toggle("show");
+          document.getElementById("menu-button").src="images/close-icon.png";
+          if (document.getElementById("nav").classList.contains('show')) {
+            document.getElementById("menu-button").src="images/nav-icon.png";
+          } else {
+            document.getElementById("menu-button").src="images/nav-icon.png";
+          }
+      }
+
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+    </script>
 
   </body>
 </html>
