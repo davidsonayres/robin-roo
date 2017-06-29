@@ -131,27 +131,8 @@
     <script type="text/javascript">
       function myFunction() {
           document.getElementById("nav").classList.toggle("show");
-          document.getElementById("menu-button").src="images/close-icon.png";
-          if (document.getElementById("nav").classList.contains('show')) {
-            document.getElementById("menu-button").src="images/nav-icon.png";
-          } else {
-            document.getElementById("menu-button").src="images/nav-icon.png";
-          }
       }
 
-      window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-
-          var dropdowns = document.getElementsByClassName("dropdown-content");
-          var i;
-          for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-              openDropdown.classList.remove('show');
-            }
-          }
-        }
-      }
     </script>
 
   </body>
