@@ -1203,9 +1203,11 @@ td#bullet {
     display: none;
   }
 
-  nav h2 {
+  nav h2,
+  nav h2.mobile {
     font-size: 8vw;
     margin-bottom: 2vh;
+    display: block;
   }
 
   nav h2 a,
