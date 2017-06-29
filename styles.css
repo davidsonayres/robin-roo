@@ -1235,6 +1235,18 @@ td#bullet {
     display:block;
   }
 
+  #agency-fees-page,
+  #apply-page,
+  #babysitter-page,
+  #contact-page,
+  #faq-page,
+  #process-page,
+  #promise-page,
+  #request-page {
+    position: absolute;
+    top: 12vh;
+  }
+
   /* MAIN PAGE & LAYOUT */
 
   img#logo {
