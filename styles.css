@@ -1616,8 +1616,10 @@ td#bullet {
 
   div#promise-content {
     width: 90vw;
-    height: 95vh;
+    height: 90vh;
     top: 2vh;
+    font-size: 5vw;
+    overflow: scroll;
   }
 
   #promise-content img {
@@ -1630,7 +1632,7 @@ td#bullet {
 
   #promise-content p,
   #promise-content table {
-    font-size: 3vw;
+    font-size: 4.5vw;
   }
 
   #promise-content p:last-of-type {
