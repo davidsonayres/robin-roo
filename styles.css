@@ -65,6 +65,7 @@ nav a:visited,
 nav a:active,
 nav a:hover {
   color: black;
+  text-transform: uppercase;
 }
 
 nav h2 {
