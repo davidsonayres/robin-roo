@@ -98,13 +98,16 @@ a#process-button:active {
 
 #temp_landing {
   text-align: center;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
 }
 
 #temp_landing #name {
   top: 11vh;
+  width: 100%;
+  left: 0;
+  margin-left: 0;
 }
 
 #temp_landing #tag {
