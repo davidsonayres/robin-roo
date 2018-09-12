@@ -94,7 +94,7 @@ a#process-button:active {
   background-repeat: no-repeat;
 }
 
-/* TEMPORARY LANDING */
+/* TEMPORARY LANDING & HIATUS */
 
 #temp_landing {
   text-align: center;
@@ -149,6 +149,13 @@ a#process-button:active {
   font-size: 3.5vh;
   margin: -2.5vh;
   color: #EAB55C;
+}
+
+img#hiatus-lashes {
+  width: 10.5vw;
+  position: absolute;
+  top: 5vh;
+  right: 26.53vw;
 }
 
 
